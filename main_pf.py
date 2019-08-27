@@ -77,13 +77,13 @@ def inlinequery(update, context):
 
 
 def commit(update, context, type):
-    print('load')
-    pprint(load_db())
-    print('context.user_data')
-    pprint(context.user_data)
+    #print('load')
+    #pprint(load_db())
+    #print('context.user_data')
+    #pprint(context.user_data)
     user_data = {**load_db(), **context.user_data}
-    print("merged")
-    pprint(user_data)
+    #print("merged")
+    #pprint(user_data)
     if type == "message" or type == "command":
         uid = str(update.message.chat_id)
         if uid not in user_data:
@@ -96,8 +96,8 @@ def commit(update, context, type):
         uid = str(update.inline_query.from_user.id)
         if uid not in user_data:
             user_data[uid] = {"state": "pending"}
-    print("dumping")
-    pprint(user_data)
+    #print("dumping")
+    #pprint(user_data)
     dump_db(user_data)
     return user_data
 
