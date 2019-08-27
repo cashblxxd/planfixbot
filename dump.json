@@ -1,0 +1,264 @@
+{
+    "@status": "ok",
+    "tasks": {
+        "@totalCount": 2,
+        "@count": 3,
+        "task": [
+            {
+                "id": {
+                    "$": 11736156
+                },
+                "title": {
+                    "$": "Стандартный шаблон"
+                },
+                "description": {},
+                "importance": {
+                    "$": "AVERAGE"
+                },
+                "status": {
+                    "$": 2
+                },
+                "statusSet": {
+                    "$": 164390
+                },
+                "checkResult": {
+                    "$": 1
+                },
+                "owner": {
+                    "id": {
+                        "$": 3301968
+                    },
+                    "name": {
+                        "$": "Павел Кукса"
+                    }
+                },
+                "parent": {
+                    "id": {
+                        "$": 0
+                    }
+                },
+                "template": {
+                    "id": {
+                        "$": 0
+                    }
+                },
+                "project": {
+                    "id": {
+                        "$": 0
+                    },
+                    "title": {}
+                },
+                "client": {
+                    "id": {
+                        "$": 0
+                    },
+                    "name": {}
+                },
+                "beginDateTime": {
+                    "$": "17-07-2017 22:02"
+                },
+                "endTime": {
+                    "$": "16-08-2017"
+                },
+                "duration": {
+                    "$": 0
+                },
+                "durationUnit": {
+                    "$": 2
+                },
+                "general": {
+                    "$": 1
+                },
+                "isOverdued": {
+                    "$": 0
+                },
+                "isCloseToDeadline": {
+                    "$": 0
+                },
+                "isNotAcceptedInTime": {
+                    "$": 0
+                },
+                "starred": {
+                    "$": 0
+                },
+                "customData": {},
+                "workers": {}
+            },
+            {
+                "id": {
+                    "$": 12104104
+                },
+                "title": {
+                    "$": "Задача для Ивана Пушкарева [Шаблон]"
+                },
+                "description": {},
+                "importance": {
+                    "$": "AVERAGE"
+                },
+                "status": {
+                    "$": 2
+                },
+                "statusSet": {
+                    "$": 164390
+                },
+                "checkResult": {
+                    "$": 1
+                },
+                "owner": {
+                    "id": {
+                        "$": 3301968
+                    },
+                    "name": {
+                        "$": "Павел Кукса"
+                    }
+                },
+                "parent": {
+                    "id": {
+                        "$": 12104102
+                    }
+                },
+                "template": {
+                    "id": {
+                        "$": 11736156
+                    }
+                },
+                "project": {
+                    "id": {
+                        "$": 482240
+                    },
+                    "title": {
+                        "$": "Внедрение Планфикс в KIII"
+                    }
+                },
+                "client": {
+                    "id": {
+                        "$": 3263304
+                    },
+                    "name": {
+                        "$": "KIII"
+                    }
+                },
+                "beginDateTime": {
+                    "$": "06-08-2019 15:15"
+                },
+                "endTime": {
+                    "$": "06-08-2019"
+                },
+                "duration": {
+                    "$": 3
+                },
+                "durationUnit": {
+                    "$": 2
+                },
+                "general": {
+                    "$": 19794
+                },
+                "isOverdued": {
+                    "$": 0
+                },
+                "isCloseToDeadline": {
+                    "$": 0
+                },
+                "isNotAcceptedInTime": {
+                    "$": 0
+                },
+                "starred": {
+                    "$": 0
+                },
+                "customData": {},
+                "workers": {
+                    "users": {
+                        "user": {
+                            "id": {
+                                "$": 3382476
+                            },
+                            "name": {
+                                "$": "Иван Пушкарёв"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "id": {
+                    "$": 11736156
+                },
+                "title": {
+                    "$": "Стандартный шаблон"
+                },
+                "description": {},
+                "importance": {
+                    "$": "AVERAGE"
+                },
+                "status": {
+                    "$": 2
+                },
+                "statusSet": {
+                    "$": 164390
+                },
+                "checkResult": {
+                    "$": 1
+                },
+                "owner": {
+                    "id": {
+                        "$": 3301968
+                    },
+                    "name": {
+                        "$": "Павел Кукса"
+                    }
+                },
+                "parent": {
+                    "id": {
+                        "$": 0
+                    }
+                },
+                "template": {
+                    "id": {
+                        "$": 0
+                    }
+                },
+                "project": {
+                    "id": {
+                        "$": 0
+                    },
+                    "title": {}
+                },
+                "client": {
+                    "id": {
+                        "$": 0
+                    },
+                    "name": {}
+                },
+                "beginDateTime": {
+                    "$": "17-07-2017 22:02"
+                },
+                "endTime": {
+                    "$": "16-08-2017"
+                },
+                "duration": {
+                    "$": 0
+                },
+                "durationUnit": {
+                    "$": 2
+                },
+                "general": {
+                    "$": 1
+                },
+                "isOverdued": {
+                    "$": 0
+                },
+                "isCloseToDeadline": {
+                    "$": 0
+                },
+                "isNotAcceptedInTime": {
+                    "$": 0
+                },
+                "starred": {
+                    "$": 0
+                },
+                "customData": {},
+                "workers": {}
+            }
+        ]
+    }
+}
