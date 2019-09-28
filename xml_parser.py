@@ -81,6 +81,9 @@ def send_task(template):
             },
             "endDate": {
                 "$": template["endTime"].split(" ")[0]
+            },
+            "client": {
+                "$": template["client"]
             }
         }
     }
@@ -99,12 +102,6 @@ def send_task(template):
     if template["id"]:
         js["task"]["template"] = {
             "$": template["id"]
-        }
-    if template["client"]:
-        js["task"]["client"] = {
-            "id": {
-                "$": template["client"].split(" ", 1)[0]
-            }
         }
     if template["worker"]:
         a = []

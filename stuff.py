@@ -9,6 +9,13 @@ def get_template(template_id, uid):
                 return i
 
 
+def get_client(client_id, uid):
+    with open("clients_" + uid + ".json") as f:
+        for i in load(f):
+            if client_id == str(i["id"]):
+                return i
+
+
 def get_next(template):
     pprint(template)
     if not template["title"]:

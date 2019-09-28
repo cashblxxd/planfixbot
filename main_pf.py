@@ -17,8 +17,8 @@ import datetime
 import calendar
 from json import load, dump, dumps
 from time import sleep
-from xml_parser import get_template_list, auth, send_task
-from stuff import get_template, get_next
+from xml_parser import get_template_list, auth, send_task, get_contact_list
+from stuff import get_template, get_next, get_client
 from database import get_token
 
 
@@ -52,7 +52,21 @@ def inlinequery(update, context):
                                      input_message_content=InputTextMessageContent("Sorry, I can't make a search yet."))
         ])
         return
-    if context.user_data[uid]["state"] == "template":
+    elif context.user_data[uid]["state"] == "client":
+        get_contact_list(uid)
+        results = []
+        with open("contacts_" + uid + ".json", "r") as f:
+            for i in load(f):
+                if query in i["name"].lower() or query in i["email"].lower() or query in i["description"].lower() or query in i["site"].lower() or query in i["worker"].lower():
+                    desc = i["name"] + " " + i["description"] + " " + i["email"]
+                    if not desc or desc == "  ":
+                        desc = "No description.:("
+                    # print(desc)
+                    results.append(InlineQueryResultArticle(id=uuid4(), title=i["name"],
+                                                            input_message_content=InputTextMessageContent(i["name"] + "::" + str(i["id"]))))
+        # pprint(results)
+        update.inline_query.answer(results)
+    elif context.user_data[uid]["state"] == "template":
         #print(query)
         results = []
         with open("templates_" + uid + ".json", "r") as f:
@@ -65,7 +79,7 @@ def inlinequery(update, context):
                         desc = "No description.:("
                     #print(desc)
                     results.append(InlineQueryResultArticle(id=uuid4(), title=i["title"],
-                                                            input_message_content=InputTextMessageContent(desc + "::" + str(i["id"]))))
+                                                            input_message_content=InputTextMessageContent(i["title"] + "::" + str(i["id"]))))
         #pprint(results)
         update.inline_query.answer(results)
     else:
@@ -118,7 +132,7 @@ def new_task(update, context):
     uid = str(update.message.chat_id)
     get_template_list(uid)
     context.user_data[uid]["state"] = "template"
-    update.message.reply_text("Включите инлайн и начните искать шаблон (@k3pfbot шаблон...)")
+    update.message.reply_text("Включите инлайн и начните искать шаблон (@k3pfbot шаблон...) или отправьте -1, если не хотите сейчас добавлять шаблон (ввести поля вручную).")
     context.user_data = commit(update, context, "command")
 
 
@@ -144,6 +158,12 @@ def text_handler(update, context):
         context.user_data[uid]["template"]["title"] = update.message.text
     elif context.user_data[uid]["state"] == "description":
         context.user_data[uid]["template"]["description"] = update.message.text
+    elif context.user_data[uid]["state"] == "client":
+        if update.message.text == "-1":
+            context.user_data[uid]["template"]["client"] = "0"
+        else:
+            client_id = update.message.text.rsplit("::", 1)[-1]
+            context.user_data[uid]["template"] = get_client(client_id, uid)
     n = get_next(context.user_data[uid]["template"])
     if n == "title":
         context.user_data[uid]["state"] = "title"
@@ -157,6 +177,10 @@ def text_handler(update, context):
     elif n == "endTime":
         context.user_data[uid]["state"] = 'endTime'
         update.message.reply_text("Выберите дату окончания:", reply_markup=telegramcalendar.create_calendar())
+    elif n == "client":
+        get_contact_list(uid)
+        context.user_data[uid]["state"] = 'client'
+        update.message.reply_text("Включите инлайн и начните искать контрагента (@k3pfbot имя контрагента...) или отправьте -1, если не хотите сейчас добавлять контрагента.")
     else:
         update.message.reply_text("Задача успешно создана!\n" + add_task(update, context, "message"))
         context.user_data[uid]["state"] = "pending"
@@ -171,10 +195,6 @@ def text_handler(update, context):
             "endTime": ""
         }
     context.user_data = commit(update, context, "message")
-    '''elif n == "client":
-            context.user_data[uid]["state"] = "client"
-            dump(context.user_data[uid]["template"], open("task.json", "w+", encoding="utf-8"), ensure_ascii=False, indent=4)
-            # TODO: clients list'''
 
 
 def button(update, context):
@@ -187,9 +207,23 @@ def button(update, context):
         if n == "endTime":
             context.user_data[uid]["state"] = 'endTime'
             update.callback_query.edit_message_text("Выберите дату окончания:", reply_markup=telegramcalendar.create_calendar())
+        elif n == "client":
+            get_contact_list(uid)
+            context.user_data[uid]["state"] = 'client'
+            update.message.reply_text("Включите инлайн и начните искать контрагента (@k3pfbot имя контрагента...) или отправьте -1, если не хотите сейчас добавлять контрагента.")
         else:
             update.callback_query.edit_message_text("Задача успешно создана!\n" + add_task(update, context, "callback"))
             context.user_data[uid]["state"] = 'pending'
+            context.user_data[uid]["template"] = {
+                "id": "",
+                "title": "",
+                "description": "",
+                "owner": "",
+                "client": "",
+                "worker": "",
+                "beginDateTime": "",
+                "endTime": ""
+            }
     elif data == "change_date":
         r = "начала" if context.user_data[uid]["state"] == "beginDateTime" else "окончания"
         update.callback_query.edit_message_text(f"Выберите дату {r}:", reply_markup=telegramcalendar.create_calendar())
