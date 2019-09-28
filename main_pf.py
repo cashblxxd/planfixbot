@@ -18,7 +18,7 @@ import calendar
 from json import load, dump, dumps
 from time import sleep
 from xml_parser import get_template_list, auth, send_task, get_contact_list
-from stuff import get_template, get_next, get_client
+from stuff import get_template, get_next
 from database import get_token
 
 
@@ -162,8 +162,7 @@ def text_handler(update, context):
         if update.message.text == "-1":
             context.user_data[uid]["template"]["client"] = "0"
         else:
-            client_id = update.message.text.rsplit("::", 1)[-1]
-            context.user_data[uid]["template"] = get_client(client_id, uid)
+            context.user_data[uid]["template"]["client"] = update.message.text.rsplit("::", 1)[-1]
     n = get_next(context.user_data[uid]["template"])
     if n == "title":
         context.user_data[uid]["state"] = "title"
@@ -210,7 +209,7 @@ def button(update, context):
         elif n == "client":
             get_contact_list(uid)
             context.user_data[uid]["state"] = 'client'
-            update.message.reply_text("Включите инлайн и начните искать контрагента (@k3pfbot имя контрагента...) или отправьте -1, если не хотите сейчас добавлять контрагента.")
+            update.callback_query.edit_message_text("Включите инлайн и начните искать контрагента (@k3pfbot имя контрагента...) или отправьте -1, если не хотите сейчас добавлять контрагента.")
         else:
             update.callback_query.edit_message_text("Задача успешно создана!\n" + add_task(update, context, "callback"))
             context.user_data[uid]["state"] = 'pending'

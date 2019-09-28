@@ -83,7 +83,9 @@ def send_task(template):
                 "$": template["endTime"].split(" ")[0]
             },
             "client": {
-                "$": template["client"]
+                "id": {
+                    "$": template["client"]
+                }
             }
         }
     }
