@@ -19,6 +19,7 @@ def get_next(template):
         return "beginDateTime"
     if not template["endTime"]:
         return "endTime"
-    '''if not template["client"]:
-        return "client"'''
+    if not template["client"]:
+        return "client"
     return "done"
+

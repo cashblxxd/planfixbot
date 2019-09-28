@@ -77,27 +77,15 @@ def inlinequery(update, context):
 
 
 def commit(update, context, type):
-    #print('load')
-    #pprint(load_db())
-    #print('context.user_data')
-    #pprint(context.user_data)
     user_data = {**load_db(), **context.user_data}
-    #print("merged")
-    #pprint(user_data)
     if type == "message" or type == "command":
         uid = str(update.message.chat_id)
-        if uid not in user_data:
-            user_data[uid] = {"state": "pending"}
     elif type == "callback":
         uid = str(update.callback_query.from_user.id)
-        if uid not in user_data:
-            user_data[uid] = {"state": "pending"}
     elif type == "query":
         uid = str(update.inline_query.from_user.id)
-        if uid not in user_data:
-            user_data[uid] = {"state": "pending"}
-    #print("dumping")
-    #pprint(user_data)
+    if uid not in user_data:
+        user_data[uid] = {"state": "pending"}
     dump_db(user_data)
     return user_data
 
@@ -156,9 +144,6 @@ def text_handler(update, context):
         context.user_data[uid]["template"]["title"] = update.message.text
     elif context.user_data[uid]["state"] == "description":
         context.user_data[uid]["template"]["description"] = update.message.text
-    '''elif context.user_data[uid]["state"] == "client":
-        pass
-        # TODO'''
     n = get_next(context.user_data[uid]["template"])
     if n == "title":
         context.user_data[uid]["state"] = "title"
@@ -174,6 +159,17 @@ def text_handler(update, context):
         update.message.reply_text("Выберите дату окончания:", reply_markup=telegramcalendar.create_calendar())
     else:
         update.message.reply_text("Задача успешно создана!\n" + add_task(update, context, "message"))
+        context.user_data[uid]["state"] = "pending"
+        context.user_data[uid]["template"] = {
+            "id": "",
+            "title": "",
+            "description": "",
+            "owner": "",
+            "client": "",
+            "worker": "",
+            "beginDateTime": "",
+            "endTime": ""
+        }
     context.user_data = commit(update, context, "message")
     '''elif n == "client":
             context.user_data[uid]["state"] = "client"

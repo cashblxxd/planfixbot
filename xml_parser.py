@@ -70,14 +70,26 @@ def send_task(template):
             "description": {
                 "$": template["description"]
             },
-            "beginDateTime": {
-                "$": template["beginDateTime"]
+            "startDateIsSet": {
+                "$": "1"
             },
-            "endTime": {
-                "$": template["endTime"]
+            "startDate": {
+                "$": template["beginDateTime"].split(" ")[0]
+            },
+            "endDateIsSet": {
+                "$": "1"
+            },
+            "endDate": {
+                "$": template["endTime"].split(" ")[0]
             }
         }
     }
+    if len(template["beginDateTime"].split(" ")) > 1 and template["beginDateTime"].split(" ")[1] != "00:00":
+        js["task"]["startTimeIsSet"] = {"$": "1"}
+        js["task"]["startTime"] = {"$": template["beginDateTime"].split(" ")[1]}
+    if len(template["endTime"].split(" ")) > 1 and template["endTime"].split(" ")[1] != "00:00":
+        js["task"]["endTimeIsSet"] = {"$": "1"}
+        js["task"]["endTime"] = {"$": template["endTime"].split(" ")[1]}
     if template["owner"]:
         js["task"]["owner"] = {
                 "id": {
@@ -106,6 +118,56 @@ def send_task(template):
                 } for i in a
             ]
         }
+    pprint(js)
     resp = get_response(bf.etree(js, root=Element("request", method="task.add")))
     id = resp["response"]["task"]["id"]["$"]
     return f"https://k3.planfix.ru/?action=planfix&task={id}"
+
+
+def get_contact_list(uid):
+    js = {
+        "account": "k3",
+        "sid": auth(get_email(), get_passwd()),
+        "pageCurrent": {
+            "$": "1"
+        },
+        "pageSize": {
+            "$": "100"
+        },
+        "target": {
+            "$": "company"
+        }
+    }
+    resp = get_response(bf.etree(js, root=Element("request", method="contact.getList")))
+    clients = resp["response"]["contacts"]["contact"]
+    pprint(clients)
+    res = []
+    for client in clients:
+        if client["canBeClient"]["$"]:
+            t = {"id": client["id"]["$"], "name": client["name"]["$"],
+                 "email": client["email"]["$"] if client["email"] else "",
+                 "site": client["site"]["$"] if client["site"] else "", "phones": {}}
+            if "phone" in client["phones"] and "number" in client["phones"]["phone"]:
+                if "$" in client["phones"]["phone"]["number"]:
+                    ttt = ""
+                    if "typeName" in client["phones"]["phone"] and "$" in client["phones"]["phone"]["typeName"]:
+                        ttt = client["phones"]["phone"]["typeName"]["$"]
+                    t["phones"][client["phones"]["phone"]["number"]["$"]] = {
+                        "type": ttt
+                    }
+            else:
+                for phone in client["phones"]["phone"]:
+                    if phone["number"]:
+                        ttt = ""
+                        if "typeName" in phone and "$" in phone["typeName"]:
+                            ttt = phone["typeName"]["$"]
+                        t["phones"][phone["number"]["$"]] = {
+                            "type": ttt
+                        }
+            t["description"] = client["description"]["$"] if client["description"] else ""
+            res.append(t)
+    dump(res, open(f'contacts_{uid}.json', 'w+', encoding='utf-8'), ensure_ascii=False, indent=4)
+
+
+#get_contact_list("111111")
+
