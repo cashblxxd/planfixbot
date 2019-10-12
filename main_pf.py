@@ -46,6 +46,13 @@ def inlinequery(update, context):
     query = update.inline_query.query.lower()
     context.user_data = commit(update, context, "query")
     uid = str(update.inline_query.from_user.id)
+    print(query, uid, context.user_data[uid])
+    if len(''.join(query.split())) < 1:
+        update.inline_query.answer([
+            InlineQueryResultArticle(id=uuid4(), title="Search",
+                                     input_message_content=InputTextMessageContent("Searching..."))
+        ])
+        return
     if context.user_data[uid]["state"] == "pending":
         update.inline_query.answer([
             InlineQueryResultArticle(id=uuid4(), title="Not in context",
@@ -53,11 +60,11 @@ def inlinequery(update, context):
         ])
         return
     elif context.user_data[uid]["state"] == "client":
-        get_contact_list(uid)
+        #get_contact_list(uid)
         results = []
         with open("contacts_" + uid + ".json", "r") as f:
             for i in load(f):
-                if query in i["name"].lower() or query in i["email"].lower() or query in i["description"].lower() or query in i["site"].lower() or query in i["worker"].lower():
+                if query in i["name"].lower() or query in i["email"].lower() or query in i["description"].lower() or query in i["site"].lower():
                     desc = i["name"] + " " + i["description"] + " " + i["email"]
                     if not desc or desc == "  ":
                         desc = "No description.:("
@@ -154,6 +161,10 @@ def text_handler(update, context):
         else:
             template_id = update.message.text.rsplit("::", 1)[-1]
             context.user_data[uid]["template"] = get_template(template_id, uid)
+            if "beginDateTime" not in context.user_data[uid]["template"]:
+                context.user_data[uid]["template"]["beginDateTime"] = ""
+            if "endTime" not in context.user_data[uid]["template"]:
+                context.user_data[uid]["template"]["endTime"] = ""
     elif context.user_data[uid]["state"] == "title":
         context.user_data[uid]["template"]["title"] = update.message.text
     elif context.user_data[uid]["state"] == "description":
@@ -252,7 +263,7 @@ def main():
     dp.add_handler(CallbackQueryHandler(button))
     dp.add_handler(InlineQueryHandler(inlinequery))
     dp.add_handler(MessageHandler(Filters.text, text_handler))
-    dp.add_error_handler(error)
+    #dp.add_error_handler(error)
     updater.start_polling()
     updater.idle()
 

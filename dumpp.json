@@ -1,41 +1,15 @@
 {
     "640028321": {
-        "state": "pending",
+        "state": "client",
         "template": {
-            "id": "",
-            "title": "Привет баг",
-            "description": "Баг ушел",
-            "owner": "",
+            "id": 12113562,
+            "title": "Задача из телеграма [Шаблон]",
+            "description": "ТЕСТ",
+            "owner": "3301968 Павел Кукса",
             "client": "",
             "worker": "",
-            "beginDateTime": "2019-09-01",
-            "endTime": "2019-09-30"
-        }
-    },
-    "168380940": {
-        "state": "client",
-        "template": {
-            "id": "",
-            "title": "Тест 20190921 ТГ",
-            "description": "222",
-            "owner": "",
-            "client": "3261608",
-            "worker": "",
-            "beginDateTime": "2019-09-19",
-            "endTime": "2019-09-13"
-        }
-    },
-    "142078676": {
-        "state": "client",
-        "template": {
-            "id": 11736156,
-            "title": "Стандартный шаблон",
-            "description": "Test kostya",
-            "owner": "3301968 Павел Кукса",
-            "client": "Привет",
-            "worker": "",
-            "beginDateTime": "17-07-2017 22:02",
-            "endTime": "16-08-2017"
+            "beginDateTime": "2019-10-01",
+            "endTime": "2019-10-31"
         }
     }
 }

@@ -1,0 +1,2539 @@
+[
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 24,
+                "user": [
+                    {
+                        "id": {
+                            "$": 3382634
+                        },
+                        "name": {
+                            "$": "Александр"
+                        },
+                        "lastName": {
+                            "$": "Коробков"
+                        },
+                        "login": {
+                            "$": "ak"
+                        },
+                        "email": {
+                            "$": "ak@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "UNACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Sofia"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382634&h=3fd4b92910ae094ddc7b6c4f00fe0cf2"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382190
+                        },
+                        "name": {
+                            "$": "Александр"
+                        },
+                        "lastName": {
+                            "$": "Малашенков"
+                        },
+                        "login": {
+                            "$": "am"
+                        },
+                        "email": {
+                            "$": "am@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "UNACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382190&h=5315aa70eb2b8f690a0f6a35c561a351"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {},
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382110
+                        },
+                        "name": {
+                            "$": "Александра"
+                        },
+                        "lastName": {
+                            "$": "Шаколина"
+                        },
+                        "login": {
+                            "$": "kriptograf2"
+                        },
+                        "email": {
+                            "$": "news@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {
+                            "$": "08-06-1986"
+                        },
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382110&h=6b93c07699f27f99f6d519735a9e6f17"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142232
+                                    },
+                                    "name": {
+                                        "$": "Криптограф"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {
+                            "phone": [
+                                {
+                                    "number": {
+                                        "$": 79190453336
+                                    },
+                                    "typeId": {
+                                        "$": 2
+                                    },
+                                    "typeName": {
+                                        "$": "Рабочий"
+                                    }
+                                },
+                                {
+                                    "number": {
+                                        "$": 79517190676
+                                    },
+                                    "typeId": {
+                                        "$": 1
+                                    },
+                                    "typeName": {
+                                        "$": "Мобильный"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": {
+                            "$": 3382084
+                        },
+                        "name": {
+                            "$": "Алина"
+                        },
+                        "lastName": {
+                            "$": "Козырева"
+                        },
+                        "login": {
+                            "$": "kriptograf67"
+                        },
+                        "email": {
+                            "$": "kriptograf67@gmail.com"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {
+                            "$": "16-10-1989"
+                        },
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382084&h=5f0ee2114cdba2961e8abb36d91a4b9d"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142232
+                                    },
+                                    "name": {
+                                        "$": "Криптограф"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {
+                            "phone": [
+                                {
+                                    "number": {
+                                        "$": "8-910-787-33-36"
+                                    },
+                                    "typeId": {
+                                        "$": 2
+                                    },
+                                    "typeName": {
+                                        "$": "Рабочий"
+                                    }
+                                },
+                                {
+                                    "number": {
+                                        "$": "8-920-335-13-03"
+                                    },
+                                    "typeId": {
+                                        "$": 1
+                                    },
+                                    "typeName": {
+                                        "$": "Мобильный"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": {
+                            "$": 3302668
+                        },
+                        "name": {
+                            "$": "Анастасия"
+                        },
+                        "lastName": {
+                            "$": "Напреенкова"
+                        },
+                        "login": {
+                            "$": "info"
+                        },
+                        "email": {
+                            "$": "info@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {
+                            "$": "15-06-1990"
+                        },
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302668&h=097e14fd507889a9401d8056aa67fb4f"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142234
+                                    },
+                                    "name": {
+                                        "$": "Администрация"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {
+                            "phone": [
+                                {
+                                    "number": {
+                                        "$": 89203151710
+                                    },
+                                    "typeId": {
+                                        "$": 1
+                                    },
+                                    "typeName": {
+                                        "$": "Мобильный"
+                                    }
+                                },
+                                {
+                                    "number": {
+                                        "$": 89092581001
+                                    },
+                                    "typeId": {
+                                        "$": 1
+                                    },
+                                    "typeName": {
+                                        "$": "Мобильный"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": {
+                            "$": 3382744
+                        },
+                        "name": {
+                            "$": "Андрей"
+                        },
+                        "lastName": {
+                            "$": "Брыков"
+                        },
+                        "login": {
+                            "$": "BrAnd"
+                        },
+                        "email": {
+                            "$": "ab@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382744&h=119854eab4e623bde03cbdf26f2777c3"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141902
+                                    },
+                                    "name": {
+                                        "$": "Технический отдел"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142240
+                                    },
+                                    "name": {
+                                        "$": "Фискализаторы"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3302652
+                        },
+                        "name": {
+                            "$": "Андрей"
+                        },
+                        "lastName": {
+                            "$": "Жуков"
+                        },
+                        "login": {
+                            "$": "az"
+                        },
+                        "email": {
+                            "$": "az@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302652&h=7175383e4e398da47487bfa3fa4c6e36"
+                        },
+                        "isOnline": {
+                            "$": 1
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141902
+                                    },
+                                    "name": {
+                                        "$": "Технический отдел"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142240
+                                    },
+                                    "name": {
+                                        "$": "Фискализаторы"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382344
+                        },
+                        "name": {
+                            "$": "Антон"
+                        },
+                        "lastName": {
+                            "$": "Галинов"
+                        },
+                        "login": {
+                            "$": "hemyli23"
+                        },
+                        "email": {
+                            "$": "ag@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382344&h=c0a1e93636f9b2c41589db85dbe29562"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142238
+                                    },
+                                    "name": {
+                                        "$": "Брянск"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142240
+                                    },
+                                    "name": {
+                                        "$": "Фискализаторы"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3302664
+                        },
+                        "name": {
+                            "$": "Дмитрий"
+                        },
+                        "lastName": {
+                            "$": "Антонов"
+                        },
+                        "login": {
+                            "$": "DronySova"
+                        },
+                        "email": {
+                            "$": "da@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "UNACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302664&h=670d31c4ed5fb1760ea428a1efc03b38"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {},
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382644
+                        },
+                        "name": {
+                            "$": "Екатерина"
+                        },
+                        "lastName": {
+                            "$": "Андросова"
+                        },
+                        "login": {
+                            "$": "Kate"
+                        },
+                        "email": {
+                            "$": "super.elektronnaja@yandex.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Sofia"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382644&h=ea7885ac2bea8359a8a1e72d943d0fd6"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142232
+                                    },
+                                    "name": {
+                                        "$": "Криптограф"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3302656
+                        },
+                        "name": {
+                            "$": "Елена"
+                        },
+                        "lastName": {
+                            "$": "Островская"
+                        },
+                        "login": {
+                            "$": "ElenaOstrovskaya"
+                        },
+                        "email": {
+                            "$": "eo@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302656&h=f670434131eeff0117b8ac41fc427d8c"
+                        },
+                        "isOnline": {
+                            "$": 1
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3302666
+                        },
+                        "name": {
+                            "$": "Елена"
+                        },
+                        "lastName": {
+                            "$": "Хомель"
+                        },
+                        "login": {
+                            "$": "ELENA.KHOMEL"
+                        },
+                        "email": {
+                            "$": "buh@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302666&h=3d8eff2fc118e3bc73862a0a106bc475"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142234
+                                    },
+                                    "name": {
+                                        "$": "Администрация"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382736
+                        },
+                        "name": {
+                            "$": "Елизавета"
+                        },
+                        "lastName": {
+                            "$": "Кобелева"
+                        },
+                        "login": {
+                            "$": "elclair"
+                        },
+                        "email": {
+                            "$": "ek@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382736&h=1278b2110bb247eb9fce88e2d00abc69"
+                        },
+                        "isOnline": {
+                            "$": 1
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142238
+                                    },
+                                    "name": {
+                                        "$": "Брянск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382144
+                        },
+                        "name": {
+                            "$": "Ирина"
+                        },
+                        "lastName": {
+                            "$": "Плотникова"
+                        },
+                        "login": {
+                            "$": "Ip"
+                        },
+                        "email": {
+                            "$": "sale32@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382144&h=f57ea359d7d0a87f8491cdda814d71bc"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141904
+                                    },
+                                    "name": {
+                                        "$": "Отдел продаж"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142234
+                                    },
+                                    "name": {
+                                        "$": "Администрация"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142238
+                                    },
+                                    "name": {
+                                        "$": "Брянск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3302456
+                        },
+                        "name": {
+                            "$": "Константин"
+                        },
+                        "lastName": {
+                            "$": "Евгенов"
+                        },
+                        "login": {
+                            "$": "Ekv"
+                        },
+                        "email": {
+                            "$": "ekv@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "ADMIN"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 79188
+                            },
+                            "name": {
+                                "$": "Руководитель"
+                            }
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302456&h=ede777633aee9abaa09c4e8595f24c88"
+                        },
+                        "isOnline": {
+                            "$": 1
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141910
+                                    },
+                                    "name": {
+                                        "$": "Руководство"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382266
+                        },
+                        "name": {
+                            "$": "Максим"
+                        },
+                        "lastName": {
+                            "$": "Клячин"
+                        },
+                        "login": {
+                            "$": "MAK"
+                        },
+                        "email": {
+                            "$": "mk@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382266&h=a203a343fdbac6f995e9dc08251e4675"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141902
+                                    },
+                                    "name": {
+                                        "$": "Технический отдел"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142240
+                                    },
+                                    "name": {
+                                        "$": "Фискализаторы"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3302662
+                        },
+                        "name": {
+                            "$": "Максим"
+                        },
+                        "lastName": {
+                            "$": "Слабков"
+                        },
+                        "login": {
+                            "$": "support"
+                        },
+                        "email": {
+                            "$": "support@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302662&h=1057fee078856d7b1e52e9c44c00f776"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141902
+                                    },
+                                    "name": {
+                                        "$": "Технический отдел"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3301968
+                        },
+                        "name": {
+                            "$": "Павел"
+                        },
+                        "lastName": {
+                            "$": "Кукса"
+                        },
+                        "login": {
+                            "$": "Fuzzz13"
+                        },
+                        "email": {
+                            "$": "pavel@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "ADMIN"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {
+                            "$": "16-12-1983"
+                        },
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 79188
+                            },
+                            "name": {
+                                "$": "Руководитель"
+                            }
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3301968&h=1eb5501f721412b2855092510ae8ea66"
+                        },
+                        "isOnline": {
+                            "$": 1
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141910
+                                    },
+                                    "name": {
+                                        "$": "Руководство"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {
+                            "phone": {
+                                "number": {
+                                    "$": 79107230253
+                                },
+                                "typeId": {
+                                    "$": 1
+                                },
+                                "typeName": {
+                                    "$": "Мобильный"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": {
+                            "$": 3302654
+                        },
+                        "name": {
+                            "$": "Сергей"
+                        },
+                        "lastName": {
+                            "$": "Баринов"
+                        },
+                        "login": {
+                            "$": "Barinow"
+                        },
+                        "email": {
+                            "$": "barinow@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3302654&h=212c7865a0dad4c7696659b213fc76c5"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141902
+                                    },
+                                    "name": {
+                                        "$": "Технический отдел"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142240
+                                    },
+                                    "name": {
+                                        "$": "Фискализаторы"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382622
+                        },
+                        "name": {
+                            "$": "Сергей"
+                        },
+                        "lastName": {
+                            "$": "Синяков"
+                        },
+                        "login": {
+                            "$": "sinse67"
+                        },
+                        "email": {
+                            "$": "sergeys@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Sofia"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382622&h=eca75deb4b43b05f7eee56ddeafb38e7"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141904
+                                    },
+                                    "name": {
+                                        "$": "Отдел продаж"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382742
+                        },
+                        "name": {
+                            "$": "Станислав"
+                        },
+                        "lastName": {
+                            "$": "Знайденов"
+                        },
+                        "login": {
+                            "$": "stask3"
+                        },
+                        "email": {
+                            "$": "sz@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382742&h=0c1ae72e9d19e03ea609c4ad7adae61d"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382246
+                        },
+                        "name": {
+                            "$": "Татьяна"
+                        },
+                        "lastName": {
+                            "$": "Гаврилова"
+                        },
+                        "login": {
+                            "$": "TE"
+                        },
+                        "email": {
+                            "$": "sale@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382246&h=fc5c2c25932a394ef12daa3b8f9f677b"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382158
+                        },
+                        "name": {
+                            "$": "Филипп"
+                        },
+                        "lastName": {
+                            "$": "Турков"
+                        },
+                        "login": {
+                            "$": "ft"
+                        },
+                        "email": {
+                            "$": "ft@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "UNACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "MALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382158&h=7e2f237953dc05e2f5f6e3681fced889"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 141900
+                                    },
+                                    "name": {
+                                        "$": "Отдел автоматизации"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    },
+                    {
+                        "id": {
+                            "$": 3382352
+                        },
+                        "name": {
+                            "$": "Юлия"
+                        },
+                        "lastName": {
+                            "$": "Новикова"
+                        },
+                        "login": {
+                            "$": "Yn"
+                        },
+                        "email": {
+                            "$": "yn@k3-67.ru"
+                        },
+                        "jabber": {},
+                        "role": {
+                            "$": "USER"
+                        },
+                        "status": {
+                            "$": "ACTIVE"
+                        },
+                        "isActivated": {
+                            "$": 1
+                        },
+                        "notify": {
+                            "byEmail": {
+                                "$": 1
+                            },
+                            "byJabber": {
+                                "$": 0
+                            },
+                            "byPlanfix": {
+                                "$": 1
+                            }
+                        },
+                        "birthdate": {},
+                        "sex": {
+                            "$": "FEMALE"
+                        },
+                        "coeff": {
+                            "$": 1
+                        },
+                        "timezone": {
+                            "$": "Europe/Moscow"
+                        },
+                        "useDst": {
+                            "$": 1
+                        },
+                        "isInvisibleOutOfGroup": {
+                            "$": 0
+                        },
+                        "isBlindOutOfGroup": {
+                            "$": 0
+                        },
+                        "post": {
+                            "id": {
+                                "$": 0
+                            },
+                            "name": {}
+                        },
+                        "userPic": {
+                            "$": "https://k3.planfix.ru/?action=getuserpic&id=3382352&h=63090fa87be7b059b6d1a0bb0afe89f5"
+                        },
+                        "isOnline": {
+                            "$": 0
+                        },
+                        "userGroups": {
+                            "userGroup": [
+                                {
+                                    "id": {
+                                        "$": 141804
+                                    },
+                                    "name": {
+                                        "$": "Все сотрудники"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142234
+                                    },
+                                    "name": {
+                                        "$": "Администрация"
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "$": 142236
+                                    },
+                                    "name": {
+                                        "$": "Смоленск"
+                                    }
+                                }
+                            ]
+                        },
+                        "phones": {}
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    },
+    {
+        "response": {
+            "@status": "ok",
+            "users": {
+                "@totalCount": 24,
+                "@count": 0
+            }
+        }
+    }
+]

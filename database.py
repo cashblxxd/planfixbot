@@ -1,9 +1,9 @@
 def get_email():
-    return 'ivanpush27@gmail.com'
+    return 'pavel@k3-67.ru'
 
 
 def get_passwd():
-    return 'qweiopasdjklzxcbnm123-09'
+    return 'Trafaret13!#'
 
 
 def get_token():
