@@ -90,6 +90,16 @@ def send_task(template):
             "description": {
                 "$": template["description"]
             },
+            "owner": {
+                "id": {
+                    "$": "3382098"
+                }
+            },
+            "client": {
+                "id": {
+                    "$": template["client"]
+                }
+            },
             "startDateIsSet": {
                 "$": "1"
             },
@@ -101,16 +111,6 @@ def send_task(template):
             },
             "endDate": {
                 "$": template["endTime"].split(" ")[0]
-            },
-            "client": {
-                "id": {
-                    "$": template["client"]
-                }
-            },
-            "owner": {
-                "id": {
-                    "$": "3332912"
-                }
             }
         }
     }
@@ -120,10 +120,6 @@ def send_task(template):
     if len(template["endTime"].split(" ")) > 1 and template["endTime"].split(" ")[1] != "00:00":
         js["task"]["endTimeIsSet"] = {"$": "1"}
         js["task"]["endTime"] = {"$": template["endTime"].split(" ")[1]}
-    if template["id"]:
-        js["task"]["template"] = {
-            "$": template["id"]
-        }
     if template["worker"]:
         a = []
         for i in template["worker"].split():
@@ -213,6 +209,21 @@ def get_user_list(uid):
     except Exception as e:
         print(e)
     dump(res, open(f'users_{uid}.json', 'w+', encoding='utf-8'), ensure_ascii=False, indent=4)
+
+
+def get_contact(uid):
+    js = {
+        "account": "k3",
+        "sid": auth(get_email(), get_passwd()),
+        "contact": {
+            "id": {
+                "$": "3332912"
+            }
+        }
+    }
+    resp = get_response(bf.etree(js, root=Element("request", method="contact.get")))
+    #pprint(resp)
 #get_contact_list("111111")
 #get_fillist("111")
 #get_user_list("1")
+#get_contact("1")
