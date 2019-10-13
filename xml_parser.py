@@ -49,7 +49,7 @@ def get_template_list(uid):
             for c in resp["response"]["tasks"]["task"]:
                 t = {"id": c["id"]["$"], "title": c["title"]["$"],
                      "description": c["description"]["$"] if c["description"] else "",
-                     "owner": str(c["owner"]["id"]["$"]) + " " + c["owner"]["name"]["$"], "client": "", "worker": ""}
+                     "owner": "3332912", "client": "", "worker": ""}
                 if c["client"]["id"]["$"] != 0:
                     t["client"] = str(c["client"]["id"]["$"]) + " " + c["client"]["name"]["$"]
                 if c["workers"]:
@@ -106,6 +106,11 @@ def send_task(template):
                 "id": {
                     "$": template["client"]
                 }
+            },
+            "owner": {
+                "id": {
+                    "$": "3332912"
+                }
             }
         }
     }
@@ -115,12 +120,6 @@ def send_task(template):
     if len(template["endTime"].split(" ")) > 1 and template["endTime"].split(" ")[1] != "00:00":
         js["task"]["endTimeIsSet"] = {"$": "1"}
         js["task"]["endTime"] = {"$": template["endTime"].split(" ")[1]}
-    if template["owner"]:
-        js["task"]["owner"] = {
-                "id": {
-                    "$": template["owner"].split(" ", 1)[0]
-                }
-            }
     if template["id"]:
         js["task"]["template"] = {
             "$": template["id"]
@@ -152,7 +151,7 @@ def get_contact_list(uid):
                 "account": "k3",
                 "sid": auth(get_email(), get_passwd()),
                 "target": {
-                    "$": "5169708"
+                    "$": "company"
                 },
                 "pageCurrent": {
                     "$": str(j)
@@ -216,4 +215,4 @@ def get_user_list(uid):
     dump(res, open(f'users_{uid}.json', 'w+', encoding='utf-8'), ensure_ascii=False, indent=4)
 #get_contact_list("111111")
 #get_fillist("111")
-get_user_list("1")
+#get_user_list("1")
