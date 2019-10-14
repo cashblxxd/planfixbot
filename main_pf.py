@@ -182,9 +182,6 @@ def text_handler(update, context):
     elif n == "description":
         context.user_data[uid]["state"] = "description"
         update.message.reply_text("Введите описание задачи")
-    elif n == "beginDateTime":
-        context.user_data[uid]["state"] = 'beginDateTime'
-        update.message.reply_text("Выберите дату начала:", reply_markup=telegramcalendar.create_calendar())
     elif n == "endTime":
         context.user_data[uid]["state"] = 'endTime'
         update.message.reply_text("Выберите дату окончания:", reply_markup=telegramcalendar.create_calendar())
@@ -206,7 +203,9 @@ def text_handler(update, context):
             "endTime": ""
         }
     context.user_data = commit(update, context, "message")
-
+    '''elif n == "beginDateTime":
+            context.user_data[uid]["state"] = 'beginDateTime'
+            update.message.reply_text("Выберите дату начала:", reply_markup=telegramcalendar.create_calendar())'''
 
 def button(update, context):
     context.user_data = commit(update, context, "callback")

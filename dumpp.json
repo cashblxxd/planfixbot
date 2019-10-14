@@ -1,15 +1,15 @@
 {
     "640028321": {
-        "state": "client",
+        "state": "pending",
         "template": {
-            "id": 12113562,
-            "title": "Задача из телеграма [Шаблон]",
-            "description": "ТЕСТ",
-            "owner": "3301968 Павел Кукса",
+            "id": "",
+            "title": "",
+            "description": "",
+            "owner": "",
             "client": "",
             "worker": "",
-            "beginDateTime": "2019-10-01",
-            "endTime": "2019-10-31"
+            "beginDateTime": "",
+            "endTime": ""
         }
     }
 }

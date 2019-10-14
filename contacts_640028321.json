@@ -1,1002 +1,3138 @@
 [
     {
-        "id": 3260790,
-        "name": "Служба поддержки ПланФикс",
-        "email": "support@planfix.ru",
-        "site": "",
-        "phones": {},
-        "description": "Если Вы столкнулись с ошибкой или непонятным поведением ПланФикса - создайте задачу с описанием ситуации и выберите исполнителем этот контакт.<br/><br/> Мы получим задачу в своем аккаунте и будем работать над ней совместно с Вами: мы сможем при необходимости уточнить недостающие детали, а Вы будете всегда в курсе хода работ по задаче."
-    },
-    {
-        "id": 3260814,
-        "name": "Serg",
+        "id": 3261590,
+        "name": "Зайцева Валентина Федоровна (Унеча)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3260816,
-        "name": "Анна",
+        "id": 3261596,
+        "name": "Визит (Усачев)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3260818,
-        "name": "Максим",
+        "id": 3261606,
+        "name": "Софрино-Газ",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3260826,
-        "name": "Alexey",
+        "id": 3261608,
+        "name": "7 40",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>4.5.2006 - 20170711<br/>"
+    },
+    {
+        "id": 3261610,
+        "name": "Катрин кафе",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3260850,
-        "name": "Константин",
+        "id": 3262356,
+        "name": "Евромаркет (Семеновский)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3260882,
-        "name": "Анастасия",
-        "email": "",
+        "id": 3262582,
+        "name": "Соин Роман",
+        "email": "r.soin81@yandex.ru",
         "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3260944,
-        "name": "Анна",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3261154,
-        "name": "Антон",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3261392,
-        "name": "Елена",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3261586,
-        "name": "Andr",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3262494,
-        "name": "Мамедов",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3262684,
-        "name": "Igor",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3264300,
-        "name": "Анна",
-        "email": "aa@rkg-paradigma.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3310876,
-        "name": "Сергей",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3321094,
-        "name": "Kirill",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3324250,
-        "name": "Егор",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332892,
-        "name": "Кристина Tina",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332910,
-        "name": "Компания KIII (iiko)",
-        "email": "iiko@k3-67.ru",
-        "site": "http://",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332916,
-        "name": "Евгений",
-        "email": "eegorov@timetoact.online",
-        "site": "http://",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332920,
-        "name": "Александр",
-        "email": "sashok_kor@mail.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332922,
-        "name": "Олеся",
-        "email": "olesya.belova0979@mail.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332924,
-        "name": "Кирилл Прудников",
-        "email": "6534195@gmail.com",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332926,
-        "name": "Елена",
-        "email": "reshedko@flexograd.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332928,
-        "name": "Александр",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332942,
-        "name": "Евгений",
-        "email": "",
-        "site": "http://",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332950,
-        "name": "Тимофей",
-        "email": "timofey_kuzin@bk.ru",
-        "site": "http://",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332958,
-        "name": "Антон",
-        "email": "anton@k3-67.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332960,
-        "name": "Анна",
-        "email": "ap@k3-67.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332966,
-        "name": "Денис",
-        "email": "bala.torg@yandex.ru",
-        "site": "http://",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3332968,
-        "name": "Ксения",
-        "email": "kleshcheva95@mail.ru",
-        "site": "http://",
         "phones": {
-            "79107693357": {
+            "79107625288": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3332976,
-        "name": "SatNam",
+        "id": 3263304,
+        "name": "KIII",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3332982,
-        "name": "Михаил",
-        "email": "mp@centr-sushi.ru",
+        "id": 3269654,
+        "name": "Престиж",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3269788,
+        "name": "Ярцевский шашлык",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270266,
+        "name": "Кулинарности",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270268,
+        "name": "Maneken Pis",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>20170711 - 5.3.2022<br/>"
+    },
+    {
+        "id": 3270280,
+        "name": "Eaton",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>20170711 - 4.5.2006<br/>"
+    },
+    {
+        "id": 3270282,
+        "name": "Electricity Bar",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270284,
+        "name": "Я Кафе + Плюшка",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270286,
+        "name": "Столовая Богородицкое",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270288,
+        "name": "Семь 40",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270290,
+        "name": "Quart и Smoking",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270292,
+        "name": "Упитанный Енот",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270294,
+        "name": "Хмель",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>4.5 - 20170525<br/>"
+    },
+    {
+        "id": 3270296,
+        "name": "Galaxy Park",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270298,
+        "name": "Красный Дракон",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270300,
+        "name": "Чайхона",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>5.2.1212.0 - 20170525<br/>"
+    },
+    {
+        "id": 3270302,
+        "name": "Пловтайм",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>5.2.1212.0 - 20170525<br/>"
+    },
+    {
+        "id": 3270304,
+        "name": "Black & White",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270306,
+        "name": "Суши Хаус",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270308,
+        "name": "Душевная кухня",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270310,
+        "name": "Агарти Хука HookahPlace",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270312,
+        "name": "Панда Суши (Катана Суши)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270314,
+        "name": "Суши Like (Краснодар)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270316,
+        "name": "Казино Корона",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270318,
+        "name": "Спорт-бар (Смокинг)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270320,
+        "name": "La Cantine Russe",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270322,
+        "name": "Арена",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270438,
+        "name": "Хуторок",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3270498,
+        "name": "Занзибар (Мята)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3272616,
+        "name": "Скала",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3272626,
+        "name": "Hot Head Burgers",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3272632,
+        "name": "Мишка",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3277300,
+        "name": "Бардак - Золотой - Пушкин",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278930,
+        "name": "Кузнецова Т.В.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278932,
+        "name": "Гоголева (Счастье, Модная Италия, Arca)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278940,
+        "name": "Молчанов",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278942,
+        "name": "Все двери (ИП Аверкина)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278944,
+        "name": "Гипфел",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278946,
+        "name": "Новиков И.М.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278948,
+        "name": "Балалаев",
+        "email": "",
         "site": "http://",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3332984,
-        "name": "Алексей",
-        "email": "vam@centr-sushi.ru",
+        "id": 3278950,
+        "name": "Автопартнер (Терминал оил)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278952,
+        "name": "Пескова",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3278960,
+        "name": "Парадигма",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3301444,
+        "name": "ИП Голубцов Е.В. (Луиджи)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3303504,
+        "name": "Арсенал 67",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3311642,
+        "name": "ИП Львов Д.И. (\"Диетические продукты\")",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3330744,
+        "name": "Шестовский Евгений",
+        "email": "mail@shestovsky.com",
+        "site": "",
+        "phones": {},
+        "description": "<p>7000 рублей.<br/>"
+    },
+    {
+        "id": 3331916,
+        "name": "Ирида (Витебский бройлер)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332888,
+        "name": "Флексоград",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332894,
+        "name": "Клерк (Ярема Юлия)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332896,
+        "name": "Ларченков Алексей",
+        "email": "hello@kexit.it",
+        "site": "http://",
+        "phones": {},
+        "description": "<p>Цена: 1000,00<br/>"
+    },
+    {
+        "id": 3332900,
+        "name": "Андрей Арсентьев",
+        "email": "arsentev_andrey@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<p>800 рублей.<br/>"
+    },
+    {
+        "id": 3332902,
+        "name": "Беляев Михаил",
+        "email": "kmdtyjr@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<p>600 рублей.<br/>"
+    },
+    {
+        "id": 3332904,
+        "name": "Криптограф",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332906,
+        "name": "Центр матери и ребенка",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332908,
+        "name": "L-Pizza",
+        "email": "ksu-vl@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332914,
+        "name": "Время действовать",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332918,
+        "name": "Иней",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332930,
+        "name": "Айболит (ИП Новикова Т.Г.)",
+        "email": "novikova-vet@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332932,
+        "name": "ИП Луговская (Смокинг 2)",
+        "email": "mary_rouch@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332934,
+        "name": "Бизнес Консалтинг",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332936,
+        "name": "Соня ООО (Виноград)",
+        "email": "moroz-gala@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332938,
+        "name": "Защита-Гарант",
+        "email": "z.garant.sml@gmail.com",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332940,
+        "name": "Sawa (Сава)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332944,
+        "name": "\"У Максима\" (Рай)",
+        "email": "",
         "site": "http://",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3332986,
-        "name": "Владимир",
-        "email": "sobolev@centr-sushi.ru",
+        "id": 3332946,
+        "name": "Энерготехэкспертиза (ЭТЭ)",
+        "email": "",
         "site": "http://",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3332990,
-        "name": "Elena",
+        "id": 3332948,
+        "name": "Ангара (ТЦ Байкал)",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332952,
+        "name": "Шафран (Столовая) Анар. Лофт. Loft",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332954,
+        "name": "Порт (Тарабукин)",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332970,
+        "name": "Руднянский дворик",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332972,
+        "name": "Сварочные технологии",
+        "email": "svarka67@yandex.ru",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332978,
+        "name": "Капибара (Центр Суши)",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332980,
+        "name": "Morze (Морзе)",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332988,
+        "name": "Sever. Север.",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332992,
+        "name": "Лигопт",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332994,
+        "name": "ХайтэкИнновация",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": "<p><a href=\"http://medsmol.ru/\">http://medsmol.ru/</a><br/>"
+    },
+    {
+        "id": 3332996,
+        "name": "Автошанс (Пожилов С.Н.)",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3332998,
+        "name": "Захаров Павел",
+        "email": "",
+        "site": "http://",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333002,
+        "name": "Ладамаркет",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333000,
-        "name": "Arrianna",
+        "id": 3333004,
+        "name": "Head Bar",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333012,
-        "name": "Григорий",
-        "email": "grishaskachkv@gmail.com",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333020,
-        "name": "Юлия",
-        "email": "sorokina99990@mail.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333024,
-        "name": "Анна",
-        "email": "akartashova@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333034,
-        "name": "Андрей",
-        "email": "Ryabiczkij99@inbox.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333036,
-        "name": "Анастасия",
+        "id": 3333006,
+        "name": "Синий Пушкин",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333038,
-        "name": "Алексей",
-        "email": "lexx.kor@ya.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333042,
-        "name": "Saveliy",
+        "id": 3333008,
+        "name": "Шафран (Ресторан)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333044,
-        "name": "Aleksandr",
+        "id": 3333010,
+        "name": "Хайрзманов Владислав",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333052,
-        "name": "Елена",
-        "email": "ya-cafe.gb@yandex.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333066,
-        "name": "Дмитрий",
+        "id": 3333014,
+        "name": "Барбадос",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333078,
-        "name": "Булат",
-        "email": "igroup.sbb@gmail.com",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333094,
-        "name": "Артем",
-        "email": "azakroev@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333118,
-        "name": "Арсений",
-        "email": "hellneo@rambler.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333120,
-        "name": "Александра",
+        "id": 3333016,
+        "name": "Минченков Александр (Грифон)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333122,
-        "name": "Сергей",
-        "email": "tim11.06.1c@yandex.ru",
+        "id": 3333018,
+        "name": "Крафтоман",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333022,
+        "name": "Глобал 67",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333028,
+        "name": "Мушкатеров (Виктория)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333030,
+        "name": "Виктория (Ресторан. ООО Ной)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333032,
+        "name": "Березинец",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333040,
+        "name": "Shoppizza (Шоп Пицца) (НЕ ВЫБИРАТЬ!!!)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333046,
+        "name": "Автосаб",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333048,
+        "name": "Шоппицца (Shopppizza)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333050,
+        "name": "Прогресс",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333054,
+        "name": "Грохотов (Автосаб)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333056,
+        "name": "Комильфо",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333062,
+        "name": "Эскорт ООО",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333064,
+        "name": "Бельэтаж",
+        "email": "dhmode@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333068,
+        "name": "Вячеслав Мухин",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333070,
+        "name": "ИП Кугелев (Мука)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333072,
+        "name": "Индиго",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333074,
+        "name": "Катимини (Catimini)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333076,
+        "name": "Суши Хит 2 (Ирина)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333080,
+        "name": "Смоленские дороги",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333082,
+        "name": "Усова Татьяна Николаевна",
+        "email": "usova.smolensk@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": "<p>+79529983404<br/>"
+    },
+    {
+        "id": 3333084,
+        "name": "РПК",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333086,
+        "name": "Прудников К.В.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333088,
+        "name": "Никоненко Владимир Владимирович",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333090,
+        "name": "Coffee Rain",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333092,
+        "name": "Речной Причал(ИП Упит СС)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333096,
+        "name": "ИП Созоненкова Светлана Александровна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333098,
+        "name": "ИП Кубарева Олеся Васильевна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333100,
+        "name": "ООО ЛИВИКО",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333102,
+        "name": "ИП Волынская К.Г.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333104,
+        "name": "ИП Зайко М.В.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333106,
+        "name": "ИП Власова И.А.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333108,
+        "name": "Ля Мажор",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333110,
+        "name": "Бетон Гарант",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333112,
+        "name": "Кукса Павел",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333114,
+        "name": "Базовые системы",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333116,
+        "name": "Департамент Смоленской области по культуре и туризму",
+        "email": "depkult67@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333124,
+        "name": "Циклон. The Office.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333126,
+        "name": "Медведь",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333128,
+        "name": "Навалихин (Высота, Калуга)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333130,
+        "name": "ООО \"ДОБРО\"",
+        "email": "Lopashinovmp@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333132,
+        "name": "Ресторан Чаплин",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333140,
+        "name": "Викинг",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333142,
+        "name": "ООО Телеком Смоленск",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333148,
+        "name": "ООО ГАНЕША (PR-кафе) ИП Соловьев",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333150,
+        "name": "ИП Михальченкова \"Времена года\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333152,
+        "name": "Тарелка",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333158,
+        "name": "Шоколад (Рославль)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333160,
+        "name": "ИП Никулина (ЦС)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333164,
+        "name": "Варница",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333166,
+        "name": "ИП Мохонченко Константин Геннадьевич",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333168,
+        "name": "Рабочая одежда",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333170,
+        "name": "Инканто ( Певзнер Екатерина Анатольевна ИП )",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333178,
+        "name": "Фемида",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333182,
+        "name": "Бояринов Иван",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333210,
+        "name": "ИП Федосенко Елена Евгеньевна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333212,
+        "name": "ИП Новиков Евгений Владимирович",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333214,
+        "name": "ИП Ходченков С. Н.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333216,
+        "name": "ИП Новиков Е.В.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333218,
+        "name": "Дмитрий. \"Екатериниский\". Мебель",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>+79516990908<br/>"
+    },
+    {
+        "id": 3333234,
+        "name": "ИП Саргсян Артак Хачикович",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333242,
+        "name": "Сапсан (Сити Курьер) Доставка",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333244,
+        "name": "ИП Керимбаев А.Н. (НИВА)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333248,
+        "name": "Атлант-М",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333250,
+        "name": "Клининг Профи (Смоленсксервис, ИП Рябцева Е.Н.)",
+        "email": "hozservis@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": "<p>214004, г.Смоленск, ул.Багратиона, д.7, кв.3<br/><p>+7(951)714-88-65 Елена Николаевна<br/>"
+    },
+    {
+        "id": 3333252,
+        "name": "IfYouWant (Иф)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333260,
+        "name": "Багира (Сафоново)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333262,
+        "name": "ООО НОВАТОР (РАЙ , у Максима)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333264,
+        "name": "Зебра (Студио 67, Камал)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333266,
+        "name": "Harats (Брянск) (Хэратс)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333268,
+        "name": "Дон Пиццерон (Брянск)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333270,
+        "name": "Або Арматура",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333272,
+        "name": "Камеди Кафе (Comedy Cafe)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333274,
+        "name": "ООО \"КАМАЛ\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333284,
+        "name": "ИП Копаренко Светлана Викторовна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333288,
+        "name": "Физдиспансер",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333290,
+        "name": "\"У Фонтана\" Рудня",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333292,
+        "name": "Автолюкс (Автомойка у Шарма) Желтая",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333294,
+        "name": "Сосна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333300,
+        "name": "Михалева Жанна Алексеевна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333302,
+        "name": "ИП Рачковская Наталья Петровна",
+        "email": "Izotonatalya@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333306,
+        "name": "Масаллы",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333310,
+        "name": "ИП Борисовский Антон Владимирович",
+        "email": "borisovskiy2006@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333312,
+        "name": "ИП Почуфарова Елена Александровна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333314,
+        "name": "Шляпа",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333322,
+        "name": "Чудо Печь",
+        "email": "",
         "site": "",
         "phones": {
-            "79605819423": {
+            "84812-12-34-56": {
                 "type": "Мобильный"
             }
         },
-        "description": "<p>600,00 рублей<br/>"
-    },
-    {
-        "id": 3333136,
-        "name": "Тестовый контакт 79107213448@yandex.ru",
-        "email": "79107213448@ya.ru",
-        "site": "",
-        "phones": {},
         "description": ""
     },
     {
-        "id": 3333138,
-        "name": "Юлия Романенко",
-        "email": "juromanenko@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333144,
-        "name": "Павел Кукса",
-        "email": "fuzzz13@gmail.com",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333146,
-        "name": "Яндекс.Почта",
-        "email": "devnull@yandex.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333154,
-        "name": "Алексей",
+        "id": 3333324,
+        "name": "РГС (Росгосстрах)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333162,
-        "name": "Татьяна",
-        "email": "tatjanabulanova@mail.ru",
+        "id": 3333326,
+        "name": "Розничный клиент",
+        "email": "",
         "site": "",
         "phones": {},
-        "description": ""
+        "description": "<p>Используем, если это разовый клиент или нет его данных.<br/>"
     },
     {
-        "id": 3333172,
-        "name": "Diana",
+        "id": 3333328,
+        "name": "ИП Шолохов А.С.",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333174,
-        "name": "Wladimir",
+        "id": 3333330,
+        "name": "Райсельмаг (ООО Торгресурс)",
+        "email": "balakas2004@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333332,
+        "name": "ИП Арзуманов Р.А.",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333176,
-        "name": "Дарья",
+        "id": 3333334,
+        "name": "ИП Фомичева И.М.",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333180,
-        "name": "Александр",
+        "id": 3333336,
+        "name": "Компания А (Счастье есть)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333184,
-        "name": "grakova@centr-sushi.ru",
-        "email": "grakova@centr-sushi.ru",
+        "id": 3333350,
+        "name": "ИП Савина Ирина Валерьевна",
+        "email": "iriasvn@rambler.ru",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333186,
-        "name": "Иосиф",
+        "id": 3333352,
+        "name": "Молчанова Ксения (Смоленский Лоцман)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333188,
-        "name": "galinvntn6@gmail.com",
-        "email": "galinvntn6@gmail.com",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333190,
-        "name": "Центр",
+        "id": 3333354,
+        "name": "Лотос (Зоомагазины)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333192,
-        "name": "Elena",
+        "id": 3333356,
+        "name": "ООО \"ТАГГЕРТ\"",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333194,
-        "name": "Капибара (Барановичи)",
+        "id": 3333358,
+        "name": "Клевер ООО",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>8-910-720-44-77 Юля бухгалтер<br/>"
+    },
+    {
+        "id": 3333360,
+        "name": "ИП Широкун К.А",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333196,
-        "name": "Отдел",
+        "id": 3333362,
+        "name": "ИП Черненок А.И",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333198,
-        "name": "Pavlukov",
+        "id": 3333364,
+        "name": "ИП Широкун И.В.",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333200,
-        "name": "центр",
+        "id": 3333366,
+        "name": "ООО Гепофарм",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333206,
-        "name": "Michael",
+        "id": 3333368,
+        "name": "ИП Артеменкова Т Л (Кулинарности)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333208,
-        "name": "Александр",
+        "id": 3333370,
+        "name": "Арагац (Ресторан Удача)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333220,
-        "name": "Александр",
+        "id": 3333372,
+        "name": "ИП Кузьмин С. В.",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333222,
-        "name": "Курган",
+        "id": 3333376,
+        "name": "Дубрава (Красный бор. ИП Лужецкий Д.В., ООО \"Амадей\")",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333224,
-        "name": "Михаил",
+        "id": 3333380,
+        "name": "Даниловский Паб",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333226,
-        "name": "Дмитрий",
+        "id": 3333382,
+        "name": "Family Cafe (Бывшие Кулинарности, ИП Артеменкова Т.Л.)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333228,
-        "name": "Дмитрий Макаренков",
-        "email": "manager@dancecolor.ru",
+        "id": 3333384,
+        "name": "Ип Восканян Грант Шагенович",
+        "email": "aragatsk@bk.ru",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333230,
-        "name": "ЦС_Оператор",
+        "id": 3333386,
+        "name": "ООО Арагац",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333232,
-        "name": "Оператор3",
+        "id": 3333388,
+        "name": "ООО Платина Групп",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333236,
-        "name": "Guly",
+        "id": 3333390,
+        "name": "ИП Ковалева С.И.",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333238,
-        "name": "Наро-Фоминск",
+        "id": 3333392,
+        "name": "ИП Ковалева Екатерина Игоревна",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>89082842422<br/>"
+    },
+    {
+        "id": 3333394,
+        "name": "ИП Сидыганова Дарья Андреевна",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333240,
-        "name": "Сергей",
+        "id": 3333396,
+        "name": "ИП Барышева О Н",
+        "email": "pava_bar@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333398,
+        "name": "ИП Карасёва Мария Владимировна",
+        "email": "masha120785@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333400,
+        "name": "НеваКлиник",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333246,
-        "name": "Могилев",
+        "id": 3333402,
+        "name": "Чай Кофе Людмила",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333254,
-        "name": "Центр",
+        "id": 3333404,
+        "name": "Вазуза",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333256,
-        "name": "amoCONF",
-        "email": "support@amoconf.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333258,
-        "name": "KAPIBARA",
+        "id": 3333406,
+        "name": "Город развлечений",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333276,
-        "name": "Екатерина Антоненкова",
-        "email": "eantonenkova@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333278,
-        "name": "Анна Асадова",
-        "email": "aa@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333280,
-        "name": "Отдел",
+        "id": 3333408,
+        "name": "Баня \"Добрыня\"",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333282,
-        "name": "Тест из Телеги",
+        "id": 3333410,
+        "name": "ИП Карпенкова Людмила Геннадьевна (Чай Кофе)",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333286,
-        "name": "Иван Пушкарёв",
-        "email": "ivanpush27@gmail.com",
-        "site": "",
-        "phones": {},
-        "description": "<p>Иван, познакомились на конкурсе &quot;Смоленский Олимп&quot;<br/>"
-    },
-    {
-        "id": 3333296,
-        "name": "Кирилл Прудников",
-        "email": "123@prigor.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333298,
-        "name": "okirilina@timetoact.online",
-        "email": "okirilina@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333304,
-        "name": "Dmitriy",
+        "id": 3333412,
+        "name": "ИП Прохорова Наталья Николаевна",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333308,
-        "name": "Мария Безволева",
-        "email": "mbezvoleva@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333320,
-        "name": "Report",
-        "email": "report@k3-67.ru",
-        "site": "",
-        "phones": {},
-        "description": "<p>Эта учетная запись используется для вывода отчетов на мониторе в офсие.<br/>"
-    },
-    {
-        "id": 3333338,
-        "name": "Leha",
+        "id": 3333416,
+        "name": "ИП Ковалева Ирина Георгиевна",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333340,
-        "name": "ООО Евролайк",
-        "email": "eurolike@tut.by",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333342,
-        "name": "Андрей Жеребцов",
-        "email": "help@amoconf.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333344,
-        "name": "info@timetoact.online",
-        "email": "info@timetoact.online",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333346,
-        "name": "amoCRM",
-        "email": "support@amocrm.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333348,
-        "name": "amoCRM",
-        "email": "partners@amocrm.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333374,
-        "name": "Дарья Гракова",
-        "email": "grakova@kapibaras.ru",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333378,
-        "name": "Игорь",
+        "id": 3333418,
+        "name": "ООО \"СОСУД\"",
         "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>Карнейчик Артем<br/>"
+    },
+    {
+        "id": 3333420,
+        "name": "Шляхтов С.В. ИП (Магазин \"КрепЫж\")",
+        "email": "zakaz566671@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<p>ОГРНИП 315673300030878 от 30.11.2015<br/><p>&nbsp;<br/><p>Магазин &quot;КрепЫж&quot;<br />тел.: +7(4812) 56-66-71<br />моб.: +7(904)365-92-84<br />Skype: zakaz566671<br/>"
+    },
+    {
+        "id": 3333422,
+        "name": "ООО \"СОСУД\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333424,
+        "name": "АПК-Сервис",
+        "email": "sorokvashina89@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333426,
+        "name": "ИП Давиденко И.В.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333428,
+        "name": "Рекламно производственная компания \"Арсенал\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333432,
+        "name": "Честер",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333434,
+        "name": "ИП Максимова Л.А.",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333436,
+        "name": "ИП Коваленко С В",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333442,
+        "name": "Лавка фермера (ИП Сункин А.В.)",
+        "email": "alexandr.sunkin@icloud.com",
+        "site": "",
+        "phones": {},
+        "description": "<p>214031, Смоленская обл, Смоленск г, Ул Проспект Строителей 7<br/>"
+    },
+    {
+        "id": 3333444,
+        "name": "ИП Сорокин",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333446,
+        "name": "Парк Звезд [Космачева Наталья Михайловна ИП]",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>Парк Звезд<br/>"
+    },
+    {
+        "id": 3333450,
+        "name": "Суши Хит 1 (Сергей)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333452,
+        "name": "Анлайн",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333454,
+        "name": "Кровля",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333456,
+        "name": "Точные поставки",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333458,
+        "name": "ООО Гурман",
+        "email": "hutorok67@rambler.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333460,
+        "name": "Суворова Валентина",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333472,
+        "name": "Капусткина Ольга Михайловна ИП",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333478,
+        "name": "Разливочный цех",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333482,
+        "name": "Гирос и Гриль (Лаура)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333484,
+        "name": "Speak Easy (Спик Изи)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333488,
+        "name": "Чердак",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333490,
+        "name": "Coffee Foxhole (кофейня)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333498,
+        "name": "Ира тест",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333524,
+        "name": "ООО \"Интеркон\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333526,
+        "name": "кафе в Десногорске",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333536,
+        "name": "Аудитстройиндустрия Аудиторская фирма",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333540,
+        "name": "Александр (Монастырщина)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333542,
+        "name": "Сергей (Издательство)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": "<p>+79156302926<br/>"
+    },
+    {
+        "id": 3333544,
+        "name": "ООО Фаворит",
+        "email": "skololeg@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333546,
+        "name": "ИП Амангалиева Мадина Мырзабаевна",
+        "email": "delena_ek@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<p>+7 (952) 998-20-25 +7 (919) 049-61-67<br/>"
+    },
+    {
+        "id": 3333548,
+        "name": "Кафе-закусочная \"Трактиръ\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333550,
+        "name": "Бисквит",
+        "email": "1@mail.ru",
         "site": "",
         "phones": {
-            "79507037901": {
+            "84832-65-89-78": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333554,
+        "name": "Сыта Хата (Мушковичи)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333556,
+        "name": "Кодекс Департамент правовой поддержки",
+        "email": "departament.pp@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<div class=\"feed-note__header-inner\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; overflow: hidden; white-space: nowrap; position: relative; -webkit-box-ordinal-group: 2; order: 1; -webkit-box-flex: 0; flex: 0 1 auto; min-width: 0px;\"><div class=\"feed-note__header-inner-nowrap\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; flex-shrink: 0; white-space: inherit; display: flex;\"><div class=\"feed-note__responsible\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; white-space: nowrap; flex-shrink: 0; ; overflow: hidden; text-overflow: ellipsis;\"><span class=\"feed-note__amojo-user\" title=\"Криптограф\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ; overflow: hidden; text-overflow: ellipsis;\">аф&nbsp;</span>&nbsp;</div></div></div><div class=\"feed-note-wrapper feed-note-wrapper-note \" data-id=\"152151949\" style=\"outline: 0px; border: 0px; margin: 20px 0px; padding: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; font-size: 15px; line-height: inherit; font-family: &quot;PT Sans&quot;, Arial, sans-serif; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: block; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; min-height: min-content; box-sizing: border-box; color: rgb(46, 54, 64); letter-spacing: normal; orphans: 2; text-align: start; ; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-; background-color: rgb(245, 245, 245); text-decoration-style: initial; text-decoration-color: initial;\"><div class=\"js-note feed-note-fixer\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ;\"><div class=\"feed-note  feed-note-with-context\" style=\"outline: 0px; border: 1px solid rgb(195, 195, 195); margin: 0px; padding: 10px 10px 15px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; background: rgb(255, 255, 255); position: relative; color: rgb(49, 57, 66); border-radius: 3px; box-sizing: border-box; ;\"><div class=\"feed-note__content \" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; color: rgb(49, 57, 66); -webkit-box-flex: 0; flex-grow: 0; width: calc(100% - 46px); max-width: calc(100% - 46px); flex-shrink: 0; min-;\"><div class=\"feed-note__body\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 5px 0px 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; -webkit-box-flex: 1; flex: 1 1 auto; overflow: hidden;\"><p style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; overflow-wrap: break-word; word-break: break-word;\">уполномочка<br/></div></div></div></div></div>"
+    },
+    {
+        "id": 3333558,
+        "name": "Смоленская Юридическая Компания",
+        "email": "yurist-smolensk@yandex.ru",
+        "site": "",
+        "phones": {
+            "+7 (4812) 54-88-44": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3333414,
-        "name": "Ольга Михайловна (Шафран, Сосна)",
+        "id": 3333560,
+        "name": "ТехноПорт",
+        "email": "martynovaolga87@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333562,
+        "name": "Тати-Консалт Консалтинговая компания",
         "email": "",
         "site": "",
         "phones": {
-            "89156341584": {
+            "+7 (4812) 32–79–43": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p>С тензером. в марте, вроде как продление. КП пока не захотела, много лет с ними<br/>"
+    },
+    {
+        "id": 3333564,
+        "name": "ДЕЛО Центр бизнеса и предпринимательства",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+7 (4812) 46–26–00": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<div class=\"feed-note-wrapper feed-note-wrapper-note \" data-id=\"152160099\" style=\"outline: 0px; border: 0px; margin: 13px 0px 20px; padding: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: block; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; min-height: min-content; box-sizing: border-box;\"><div class=\"js-note feed-note-fixer\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ;\"><div class=\"feed-note  feed-note-with-context\" style=\"outline: 0px; border: 1px solid rgb(195, 195, 195); margin: 0px; padding: 10px 10px 15px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; background: rgb(255, 255, 255); position: relative; color: rgb(49, 57, 66); border-radius: 3px; box-sizing: border-box; ;\"><div class=\"feed-note-wrapper feed-note-wrapper-note \" data-id=\"152160099\" style=\"outline: 0px; border: 0px; margin: 13px 0px 20px; padding: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: block; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; min-height: min-content; box-sizing: border-box;\"><div class=\"js-note feed-note-fixer\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ;\"><div class=\"feed-note  feed-note-with-context\" style=\"outline: 0px; border: 1px solid rgb(195, 195, 195); margin: 0px; padding: 10px 10px 15px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; background: rgb(255, 255, 255); position: relative; color: rgb(49, 57, 66); border-radius: 3px; box-sizing: border-box; ;\"><div class=\"feed-note__content \" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; color: rgb(49, 57, 66); -webkit-box-flex: 0; flex-grow: 0; width: calc(100% - 46px); max-width: calc(100% - 46px); flex-shrink: 0; min-;\">&nbsp;</div><div class=\"feed-note__context-container\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ; top: 0px; bottom: 0px; left: 360.281px; right: 0px; overflow: hidden; pointer-events: none;\"><div class=\"feed-note__context js-note-context\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ; display: flex; right: -1px; top: 0px; bottom: 0px; ; pointer-events: initial; box-sizing: border-box; border-top-right-radius: 3px; border-bottom-right-radius: 3px; background: rgba(234, 234, 234, 0.9); overflow: hidden; transition: transform 0.1s ease 0.1s, -webkit-transform 0.1s ease; transform: translateX(100%);\"><div class=\"feed-note__context__item pinner js-note-pinner\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 10px 0px 15px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; cursor: pointer; color: rgb(133, 145, 165);\"><svg class=\"svg-icon svg-notes--pin-dims pinner-icon\"><use xlink:href=\"#notes--pin\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 16 15\" id=\"notes--pin\"><path d=\"M8.987.603l1.872 3.709 4.184.594a1.08 1.08 0 0 1 .615 1.852l-3.028 2.89.714 4.072a1.11 1.11 0 0 1-.453 1.071c-.341.242-.789.271-1.158.075L7.99 12.939l-3.74 1.927a1.103 1.103 0 0 1-1.158-.075 1.11 1.11 0 0 1-.454-1.07l.715-4.073-3.028-2.89A1.081 1.081 0 0 1 .94 4.905l4.185-.594L6.996.602a1.12 1.12 0 0 1 1.991 0z\"></path></svg></use></svg><span style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased;\">Закрепить</span></div><div class=\"feed-note__context__item delete js-note-delete-btn\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; cursor: pointer; color: rgb(133, 145, 165);\"><svg class=\"svg-icon svg-notes--context-delete-dims\"><use xlink:href=\"#notes--context-delete\"><svg xmlns=\"http://www.w3.org/2000/svg\" preserveaspectratio=\"xMidYMid\" viewbox=\"0 0 28 28\" id=\"notes--context-delete\"><path d=\"M14 28C6.268 28 0 21.732 0 14S6.268 0 14 0s14 6.268 14 14-6.268 14-14 14zm7-16H7v4h14v-4z\" class=\"macls-1\"></path></svg></use></svg><span style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased;\">Удалить</span></div><div class=\"feed-note__context__item edit js-note-edit-mode-btn\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 15px 0px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; cursor: pointer; color: rgb(133, 145, 165);\"><svg class=\"svg-icon svg-notes--context-edit-dims\"><use xlink:href=\"#notes--context-edit\"><svg xmlns=\"http://www.w3.org/2000/svg\" preserveaspectratio=\"xMidYMid\" viewbox=\"0 0 19.16 27.625\" id=\"notes--context-edit\"><path d=\"M4.16 27.625v-2h15v2h-15zM17.191 8.581l1.732 1-1 1.732-3 5.196-1.732-1 3-5.196-.866-.5-7 12.124a3 3 0 0 1-4.098 1.098l-2.5 4.33-1.732-.999 2.5-4.331a3 3 0 0 1-1.098-4.098l8-13.856.055.032.204-.356 6.892 3.938.777-1.346-1.732-1 .5-.866a1 1 0 0 0-.366-1.366l-1.732-1.001a1 1 0 0 0-1.366.367l-.5.866-1.732-1 .5-.866A3 3 0 0 1 14.995.385l1.732 1a3 3 0 0 1 1.098 4.098l-1.277 2.212.108.062-.221.387.756.437zM10.338 6.45L3.129 18.937a1 1 0 0 0 .366 1.366l1.732 1a.999.999 0 0 0 1.366-.366l7-12.124.218-.378-3.473-1.985z\" class=\"mbcls-1\"></path></svg></use></svg><span style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased;\">Изменить</span></div></div></div></div></div></div><div class=\"feed-note__context-container\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ; top: 0px; bottom: 0px; left: 360.281px; right: 0px; overflow: hidden; pointer-events: none;\"><div class=\"feed-note__context js-note-context\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; ; display: flex; right: -1px; top: 0px; bottom: 0px; ; pointer-events: initial; box-sizing: border-box; border-top-right-radius: 3px; border-bottom-right-radius: 3px; background: rgba(234, 234, 234, 0.9); overflow: hidden; transition: transform 0.1s ease 0.1s, -webkit-transform 0.1s ease; transform: translateX(100%);\"><div class=\"feed-note__context__item pinner js-note-pinner\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 10px 0px 15px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; cursor: pointer; color: rgb(133, 145, 165);\"><svg class=\"svg-icon svg-notes--pin-dims pinner-icon\"><use xlink:href=\"#notes--pin\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 16 15\" id=\"notes--pin\"><path d=\"M8.987.603l1.872 3.709 4.184.594a1.08 1.08 0 0 1 .615 1.852l-3.028 2.89.714 4.072a1.11 1.11 0 0 1-.453 1.071c-.341.242-.789.271-1.158.075L7.99 12.939l-3.74 1.927a1.103 1.103 0 0 1-1.158-.075 1.11 1.11 0 0 1-.454-1.07l.715-4.073-3.028-2.89A1.081 1.081 0 0 1 .94 4.905l4.185-.594L6.996.602a1.12 1.12 0 0 1 1.991 0z\"></path></svg></use></svg><span style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased;\">Закрепить</span></div><div class=\"feed-note__context__item delete js-note-delete-btn\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; cursor: pointer; color: rgb(133, 145, 165);\"><svg class=\"svg-icon svg-notes--context-delete-dims\"><use xlink:href=\"#notes--context-delete\"><svg xmlns=\"http://www.w3.org/2000/svg\" preserveaspectratio=\"xMidYMid\" viewbox=\"0 0 28 28\" id=\"notes--context-delete\"><path d=\"M14 28C6.268 28 0 21.732 0 14S6.268 0 14 0s14 6.268 14 14-6.268 14-14 14zm7-16H7v4h14v-4z\" class=\"macls-1\"></path></svg></use></svg><span style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased;\">Удалить</span></div><div class=\"feed-note__context__item edit js-note-edit-mode-btn\" style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px 15px 0px 10px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; cursor: pointer; color: rgb(133, 145, 165);\"><svg class=\"svg-icon svg-notes--context-edit-dims\"><use xlink:href=\"#notes--context-edit\"><svg xmlns=\"http://www.w3.org/2000/svg\" preserveaspectratio=\"xMidYMid\" viewbox=\"0 0 19.16 27.625\" id=\"notes--context-edit\"><path d=\"M4.16 27.625v-2h15v2h-15zM17.191 8.581l1.732 1-1 1.732-3 5.196-1.732-1 3-5.196-.866-.5-7 12.124a3 3 0 0 1-4.098 1.098l-2.5 4.33-1.732-.999 2.5-4.331a3 3 0 0 1-1.098-4.098l8-13.856.055.032.204-.356 6.892 3.938.777-1.346-1.732-1 .5-.866a1 1 0 0 0-.366-1.366l-1.732-1.001a1 1 0 0 0-1.366.367l-.5.866-1.732-1 .5-.866A3 3 0 0 1 14.995.385l1.732 1a3 3 0 0 1 1.098 4.098l-1.277 2.212.108.062-.221.387.756.437zM10.338 6.45L3.129 18.937a1 1 0 0 0 .366 1.366l1.732 1a.999.999 0 0 0 1.366-.366l7-12.124.218-.378-3.473-1.985z\" class=\"mbcls-1\"></path></svg></use></svg><span style=\"outline: 0px; border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: baseline; text-rendering: geometricprecision; -webkit-font-smoothing: antialiased;\">Изменить</span></div></div></div></div></div></div>"
+    },
+    {
+        "id": 3333566,
+        "name": "Здоровая линия Бухгалтерская фирма",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+7 (4812) 64–96–63": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3333430,
-        "name": "Vladislav",
+        "id": 3333568,
+        "name": "СОГБУ СПО «Техникум отраслевых технологий»",
+        "email": "smoldmt@gmail.com",
+        "site": "",
+        "phones": {
+            "7-4812-474141": {
+                "type": "Рабочий"
+            }
+        },
+        "description": "<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; ; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Леонов Дмитрий Александрович</span><br/>"
+    },
+    {
+        "id": 3333570,
+        "name": "Центр юридического сопровождения бизнеса",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333448,
-        "name": "ЦС_Мануфактура",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333462,
-        "name": "Тест УС 20190815_1",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333464,
-        "name": "Тестовый клиент 20190815_2",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333466,
-        "name": "Тестовый",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333470,
-        "name": "Yury",
-        "email": "",
-        "site": "",
-        "phones": {},
-        "description": ""
-    },
-    {
-        "id": 3333474,
-        "name": "Ирина",
+        "id": 3333572,
+        "name": "Мирена Центр сопровождения бизнеса",
         "email": "",
         "site": "",
         "phones": {
-            "79208646011": {
+            "+7 (4812) 60–93–39": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3333476,
-        "name": "Колобки",
+        "id": 3333574,
+        "name": "ИНВЕСТ Группа компаний",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333480,
-        "name": "Епифанцев Сергей",
+        "id": 3333576,
+        "name": "ИНВЕСТ Группа компаний",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333486,
-        "name": "Александр",
+        "id": 3333578,
+        "name": "Компания ЭКСПЕРТ Оценочно-юридическая компания",
         "email": "",
         "site": "",
         "phones": {},
         "description": ""
     },
     {
-        "id": 3333492,
-        "name": "Константин",
+        "id": 3333580,
+        "name": "Firmmaker Бухгалтерская фирма",
         "email": "",
         "site": "",
         "phones": {
-            "+7-920-834-19-89": {
+            "+7 (4812) 701–700": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3333494,
-        "name": "Ирина",
+        "id": 3333582,
+        "name": "Правовой центр",
         "email": "",
         "site": "",
         "phones": {
-            "89307218972": {
+            "+7 (4812) 69–13–19": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3333516,
-        "name": "Сергей",
+        "id": 3333584,
+        "name": "Сопровождение Бизнес-центр",
         "email": "",
         "site": "",
         "phones": {},
-        "description": "<p>дозвонилась, сказали, звонить октябрь-ноябрь. тогда с диром переговорит, для чего подписи нужны<br/>"
+        "description": ""
     },
     {
-        "id": 3333528,
-        "name": "Светлана",
-        "email": "Elegiya@67yandex.ru",
+        "id": 3333586,
+        "name": "Нина Центр бухгалтерского и юридического сопровождения бизнеса",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333588,
+        "name": "ООО \"Моя бухгалтерия\"",
+        "email": "uslugi@buhgalter67.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333590,
+        "name": "ООО \"Актив\"",
+        "email": "",
         "site": "",
         "phones": {
-            "+7-910-789-57-84": {
+            "8 (910) 111-29-11": {
                 "type": "Мобильный"
             }
         },
         "description": ""
     },
     {
-        "id": 3333538,
-        "name": "Директор",
+        "id": 3333592,
+        "name": "КАФЕ РК \"Фабрика\" криптограф",
+        "email": "fabrikaw@yandex.ru",
+        "site": "",
+        "phones": {
+            "8(48134)6-55-86": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333594,
+        "name": "Школа среднего общего образования № 1",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813464043": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333596,
+        "name": "Согаз-Мед, медицинское страхование",
+        "email": "",
+        "site": "",
+        "phones": {
+            "88001000702": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333598,
+        "name": "Капитал, медицинское страхование",
         "email": "",
         "site": "",
         "phones": {},
-        "description": "<p>Работает со сбисом , сдают отчетность. дала почту для КП stauds@yandex.ru. работает со сбисом + 2 доп. рабочих места. платит 5300 им, Алина консультировала. 4700+ 3 с чем-то там.+ на флешках!<br/>"
+        "description": ""
+    },
+    {
+        "id": 3333600,
+        "name": "Согласие, страховая компания",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333602,
+        "name": "Росгосстрах, страховая компания",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333604,
+        "name": "Штаченко Г.В.",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813464194": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333606,
+        "name": "Жемчужина, стоматологические услуги",
+        "email": "",
+        "site": "",
+        "phones": {
+            "89107193111": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333608,
+        "name": "Фабрика, кафе",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333610,
+        "name": "Каламбур кафе",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813440448": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333612,
+        "name": "Микей, супермаркет",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333614,
+        "name": "Белое такси",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813460009": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333616,
+        "name": "Автомиг",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333618,
+        "name": "Автолайн такси",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813431556": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333620,
+        "name": "Смоленская областная нотариальная палата, нотариальные услуги",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813464737": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333622,
+        "name": "Рославльская станция по борьбе с болезнями животных",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84813440487": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333624,
+        "name": "ОАО «720 ремонтный завод средств обеспечения полетов»",
+        "email": "",
+        "site": "",
+        "phones": {
+            "48134) 4-17-57": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333626,
+        "name": "АО «Росигрушка»",
+        "email": "",
+        "site": "",
+        "phones": {
+            "(48134) 6-48-91": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333628,
+        "name": "АО «Алмазинструмент»",
+        "email": "roslavl@almaz-i.ru",
+        "site": "",
+        "phones": {
+            "(48134) 6-42-53": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333630,
+        "name": "АО «Рославльский вагоноремонтный завод»",
+        "email": "",
+        "site": "",
+        "phones": {
+            "48134) 4-17-57": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333632,
+        "name": "ООО «Русьпак»",
+        "email": "ruspakros@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333634,
+        "name": "Служба по обеспечению деятельности мировых судей Смоленской области",
+        "email": "mirsud1@admin-smolensk.ru",
+        "site": "",
+        "phones": {
+            "29-17-29": {
+                "type": "Рабочий"
+            }
+        },
+        "description": "<p>Денис Викторович<br/>"
+    },
+    {
+        "id": 3333636,
+        "name": "Кафе \"Арбат\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333640,
+        "name": "Клуб-ресторан \"Barcelona\"",
+        "email": "barcelonabryansk@gmail.com",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333644,
+        "name": "Кафе \"Дебрянск\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+7 (4832) 74-13-94": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333648,
+        "name": "Бар \"Rolling`s Bar\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 (483) 272-07-65": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333652,
+        "name": "Кафе Green city",
+        "email": "green-city-32@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333656,
+        "name": "Пивной ресторан \"Августин\"",
+        "email": "info@avgustin32.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333660,
+        "name": "Гастробар Drova",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8(4832) 67-43-62": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333664,
+        "name": "Шашлычный двор mimino",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 (4832) 50-50-88": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333668,
+        "name": "Столовая \"Fresh idea \"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 (4832) 72-12-61": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333672,
+        "name": "Кафе \"Жар-пицца\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 (4832) 26-32-06": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333676,
+        "name": "Смоленский ГПМ",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333678,
+        "name": "Смарт",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333680,
+        "name": "Редукторные механизмы",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333682,
+        "name": "Клуб-ресторан \"Deus\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 483-23-78-888": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333686,
+        "name": "Кафе \"Drive Bar\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 (4832) 717 777": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333692,
+        "name": "Bodrov (Бодров) - кофейня",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8-999-620-96-49": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333694,
+        "name": "ФГБОУ ВО СГМУ Минздрава России",
+        "email": "snab-1@mail.ru",
+        "site": "",
+        "phones": {
+            "55-70-52": {
+                "type": "Рабочий"
+            }
+        },
+        "description": "<p>Через Диму Стоматолог<br/>"
+    },
+    {
+        "id": 3333696,
+        "name": "Смоленская таможня",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333698,
+        "name": "ОГБУ Хозяйственное управление Администрации Смоленской области",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333700,
+        "name": "ФУДСТОР ООО",
+        "email": "vscorn67@gmail.com",
+        "site": "",
+        "phones": {
+            "89156311128": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333702,
+        "name": "кафе \"Веселый перчик\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "84832-37-87-87": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333706,
+        "name": "кафе Лукоморье",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8483 252-76-12": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333708,
+        "name": "Большой формат ООО",
+        "email": "se@rkg-paradigma.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333710,
+        "name": "ОБЛАЧНЫЙ РИТЕИЛ ПЛЮС ООО",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8(8412) 46-73-35": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333712,
+        "name": "СРО ООФ Центр качества строительства",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333714,
+        "name": "Еременкова Оксана Вячеславовна ИП (Масаллы)",
+        "email": "eremenkovao2@gmail.com",
+        "site": "",
+        "phones": {
+            "89517184468": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333716,
+        "name": "РЕДУКТОРНЫЕ МЕХАНИЗМЫ ООО",
+        "email": "114-rm@reduktor-mex.ru",
+        "site": "",
+        "phones": {
+            "8(4812) 31-04-00": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333720,
+        "name": "АВАНГАРД (Black and White)",
+        "email": "ladya24@yandex.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333722,
+        "name": "Электрик Отель Александров Александр Александрович",
+        "email": "",
+        "site": "",
+        "phones": {
+            "79056975335": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333724,
+        "name": "Новиков Игорь Михайлович (Нал)",
+        "email": "novikov_buh@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333728,
+        "name": "ТОР ООО",
+        "email": "ivanov@vertdiamond.ru",
+        "site": "",
+        "phones": {
+            "8(4812)608860": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333730,
+        "name": "Сеть доставки mybox",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8-800-100-0055": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333734,
+        "name": "Кафе \"Идиллия\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8 (4832) 51-23-51": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333736,
+        "name": "Кафе-бар \"Столичный рай\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8-900-358-39-26": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p>Работают только на банкеты, но и сейчас от них отказываются. Когда заработают в полную силу не известно. Причину не назвала.<br/>"
+    },
+    {
+        "id": 3333740,
+        "name": "Кафе \"Очаг\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333744,
+        "name": "Cosmos (космос) Авторские десерты",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333748,
+        "name": "Кофейня и кондитерская baker street",
+        "email": "baker.street@bk.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333750,
+        "name": "ИП Молчанов В. В.",
+        "email": "olgarubina@yandex.ru Бух",
+        "site": "",
+        "phones": {
+            "8-910-726-74-74 Ольга Никонова, бух": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333752,
+        "name": "ГАУ \"ЦГТ БО\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+7(961)0046592": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Trebuchet MS&quot;, Tahoma, Verdana, Arial, sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; ; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-; background-color: rgb(235, 235, 236); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Сергиенко Сергей Александрович</span><br/>"
+    },
+    {
+        "id": 3333758,
+        "name": "ООО МКК \"ТАЙГЕРФИНАНС\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333762,
+        "name": "Кафе \"Щебетун\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333766,
+        "name": "BUNNY кофейня",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8-999-621-28-89": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333770,
+        "name": "Городское Кафе \"На Лестнице Раздолье\"",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+8 483 237-73-73": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333774,
+        "name": "Кафе \"На пушке\"",
+        "email": "zazsikafe@yandex.ru",
+        "site": "",
+        "phones": {
+            "8 (4832) 78-11-79": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333778,
+        "name": "Кальянная Мята Lounge",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8(4832) 72-52-22": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333780,
+        "name": "Сеть суши-баров \"АВТОСУШИ\" и Автопицца",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8(4832)321-000": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333784,
+        "name": "Кофейня Urban Coffee",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333788,
+        "name": "Пончики (пельменная)",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333792,
+        "name": "Кофейня Time Cafe",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8-950-691-72-62": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p><a href=\"https://vk.com/id9675994\">https://vk.com/id9675994</a> - страница руководителя в ВК<br/>"
+    },
+    {
+        "id": 3333794,
+        "name": "Кофейня \"Coffee And Tea\"",
+        "email": "",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333816,
+        "name": "Лысенков А.В.",
+        "email": "",
+        "site": "",
+        "phones": {
+            "89507038856": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333818,
+        "name": "Государственное бюджетное учреждение культуры «Смоленский областной театр кукол имени Д.Н. Светильникова»",
+        "email": "smolanimator@mail.ru",
+        "site": "",
+        "phones": {
+            "(4812) 38-37-67, 66-64-21": {
+                "type": "Рабочий"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333822,
+        "name": "Областное государственное бюджетное учреждение здравоохранения «Рославльская центральная районная больница»",
+        "email": "roslavlcrb@yandex.ru",
+        "site": "",
+        "phones": {
+            "(8 48 134) 6-41-15": {
+                "type": "Рабочий"
+            }
+        },
+        "description": "<p>Гл. Бух - Людмила Ивановна<br/>"
+    },
+    {
+        "id": 3333826,
+        "name": "ИП Пашенков П В",
+        "email": "autopim@mail.ru",
+        "site": "",
+        "phones": {
+            "79107863474": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333828,
+        "name": "РославльМясо ООО",
+        "email": "4813464576@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": ""
+    },
+    {
+        "id": 3333830,
+        "name": "Страховая группа МСК, ОАО",
+        "email": "",
+        "site": "",
+        "phones": {
+            "(48134) 6-10-91": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p>Смоленский филиал, ОП в г. Рославль<br/>"
+    },
+    {
+        "id": 3333832,
+        "name": "гостиница ООО",
+        "email": "",
+        "site": "",
+        "phones": {
+            "(48134) 4-14-65": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333834,
+        "name": "Фармация-Рославль, ОАО, аптека № 17",
+        "email": "",
+        "site": "",
+        "phones": {
+            "(48134) 4-03-54": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333836,
+        "name": "Игрушка, Wood Trick,",
+        "email": "woodtrick-smol@yandex.ru",
+        "site": "",
+        "phones": {
+            "8-961-137-44-44": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p><a class=\"title-firm\" id=\"f_title_1276756\" target=\"_blank\" href=\"http://smolensk.all-gorod.ru/infopage/igrushka\">Игрушка, Wood Trick, кинетические деревянные 3-D конструкторы</a><br/>"
+    },
+    {
+        "id": 3333838,
+        "name": "Organic4Kids, детские товары, ООО",
+        "email": "",
+        "site": "",
+        "phones": {
+            "8-951-710-70-43": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333840,
+        "name": "Остров детства",
+        "email": "volkova-714@rambler.ru",
+        "site": "",
+        "phones": {
+            "(4812) 64-55-24": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p>&nbsp;Остров детства, магазин детских товаров<br/>"
+    },
+    {
+        "id": 3333842,
+        "name": "НаТриКа, ИП Алейник Н. В.",
+        "email": "aleyniknv@yandex.ru",
+        "site": "",
+        "phones": {
+            "8-908-280-00-84": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333844,
+        "name": "Светлячок",
+        "email": "toys_svetlyachok@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<h1>Светлячок, магазин развивающих игрушек, ООО</h1><div style=\";\">&nbsp;</div><div style=\";\">&nbsp;</div>"
+    },
+    {
+        "id": 3333846,
+        "name": "Hikosen Cara",
+        "email": "sales@smiling-cats.ru",
+        "site": "",
+        "phones": {
+            "8-951-708-53-35": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<p><a class=\"title-firm\" id=\"f_title_1234059\" target=\"_blank\" href=\"http://nikosencara.all-gorod.ru/tovari?r_id=944&amp;page=1\">Hikosen Cara, ИП Морозов Д. Н.</a><br/>"
+    },
+    {
+        "id": 3333850,
+        "name": "Лонжерон",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+7 (910) 786-86-96": {
+                "type": "Мобильный"
+            }
+        },
+        "description": "<h1 style=\"box-sizing: border-box; margin: 20px 0px 10px; font-size: 30px; font-family: &quot;PT Sans&quot;; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; ; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;\">Магазин Автозапчастей Лонжерон</h1>"
+    },
+    {
+        "id": 3333852,
+        "name": "Клаксон",
+        "email": "",
+        "site": "",
+        "phones": {
+            "+7 (48134) 6-42-05": {
+                "type": "Мобильный"
+            }
+        },
+        "description": ""
+    },
+    {
+        "id": 3333854,
+        "name": "Детали машин ГАЗ",
+        "email": "Avtorai-roslavl@mail.ru, avtorai-roslavl@mail.ru",
+        "site": "",
+        "phones": {},
+        "description": "<ul class=\"address\" style=\"box-sizing: border-box; margin: 10px 0px 0px; list-style: none; padding: 0px; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; ; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;\"><li data-coordinates=\"32.878627,53.949566\" data-name=\"Детали машин ГАЗ\" data-url=\"//detali-mashin-gaz2951.html\" style=\"box-sizing: border-box; padding: 10px 0px;\"><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"value address\" style=\"box-sizing: border-box; ; ;\">Смоленская обл., Рославльский р-н, Рославль г., ул. Карла Маркса, 51</span><br/><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>телефон:</span><span class=\"value phone\" style=\"box-sizing: border-box; ; ;\"><span class=\"small-phone\" style=\"box-sizing: border-box;\">+7 (4813) 44-08-77</span></span><br/><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>график (часы) работы:</span><span class=\"value time\" style=\"box-sizing: border-box; ; ;\">пн-пт 9:00&ndash;19:00; сб 9:00&ndash;14:00</span><br/><p data-lnk=\"b'aHR0cDovL2RtLmdhei5ydQ=='\" style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>официальный сайт:</span><span class=\"value url\" style=\"box-sizing: border-box; ; ;\"><a target=\"_blank\" rel=\"nofollow\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183); text-decoration: none;\" href=\"http://dm.gaz.ru/\">http://dm.gaz.ru</a></span><br/><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>электронная почта:</span><span class=\"value email\" style=\"box-sizing: border-box; ; ;\">vasilekavto@mail.ru</span><br/></li><li class=\"last\" data-coordinates=\"32.851695,53.949932\" data-name=\"Детали машин ГАЗ\" data-url=\"//detali-mashin-gaz2951.html\" style=\"box-sizing: border-box; padding: 10px 0px;\"><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>адрес:</span><span class=\"value address\" style=\"box-sizing: border-box; ; ;\">Смоленская обл., Рославльский р-н, Рославль г., ул. Советская, 57б</span><br/><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>телефон:</span> <span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; ; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">+7 (481) 344-02-81</span> <span class=\"value phone\" style=\"box-sizing: border-box; ; ;\"><span>&nbsp;</span></span><br/><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>график (часы) работы:</span><span class=\"value time\" style=\"box-sizing: border-box; ; ;\">ежедневно, 8:00&ndash;20:00</span><br/><p data-lnk=\"b'aHR0cDovL2RtLmdhei5ydQ=='\" style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>официальный сайт:</span><span class=\"value url\" style=\"box-sizing: border-box; ; ;\"><a target=\"_blank\" rel=\"nofollow\" style=\"box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183); text-decoration: none;\" href=\"http://dm.gaz.ru/\">http://dm.gaz.ru</a></span><br/><p style=\"box-sizing: border-box; margin: 0px 0px 5px; padding: 0px; overflow: hidden;\"><span class=\"nm\" style=\"box-sizing: border-box; overflow: hidden; ; ; margin: 0px 10px 0px 0px; color: rgb(119, 119, 119); ;\"><span>&nbsp;</span>электронная почта:</span><span class=\"value email\" style=\"box-sizing: border-box; ; ;\">Avtorai-roslavl@mail.ru, avtorai-roslavl@mail.ru</span><br/></li></ul>"
     }
 ]

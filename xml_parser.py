@@ -100,12 +100,6 @@ def send_task(template):
                     "$": template["client"]
                 }
             },
-            "startDateIsSet": {
-                "$": "1"
-            },
-            "startDate": {
-                "$": template["beginDateTime"].split(" ")[0]
-            },
             "endDateIsSet": {
                 "$": "1"
             },
@@ -114,6 +108,17 @@ def send_task(template):
             }
         }
     }
+    if not template["beginDateTime"]:
+        js["task"]["startDateIsSet"] = {
+            "$": "0"
+        }
+    else:
+        js["task"]["startDateIsSet"] = {
+            "$": "1"
+        }
+        js["task"]["startDate"] = {
+            "$": template["beginDateTime"].split(" ")[0]
+        }
     if len(template["beginDateTime"].split(" ")) > 1 and template["beginDateTime"].split(" ")[1] != "00:00":
         js["task"]["startTimeIsSet"] = {"$": "1"}
         js["task"]["startTime"] = {"$": template["beginDateTime"].split(" ")[1]}
