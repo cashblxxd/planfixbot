@@ -9,7 +9,7 @@ from database import get_email, get_passwd, get_pf_auth_token
 
 def get_response(xml_string):
     s = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + tostring(xml_string).decode("utf-8")
-    #print(s)
+    print(s)
     resp = post("https://apiru.planfix.ru/xml", data=s, headers={'Accept': 'application/xml', 'Content-Type': 'application/xml'},
                 auth=(get_pf_auth_token(), '')).text
     #print(resp)
@@ -80,10 +80,18 @@ def get_template_list(uid):
 
 
 def send_task(template):
+    print("TEMPLATE")
+    pprint(template)
     js = {
         "account": "k3",
         "sid": auth(get_email(), get_passwd()),
-        "task": {
+        "task": {}
+    }
+    if "id" in template and template["id"]:
+        js["task"] = {
+            "template": {
+                "$": str(template["id"])
+            },
             "title": {
                 "$": template["title"]
             },
@@ -107,7 +115,31 @@ def send_task(template):
                 "$": template["endTime"].split(" ")[0]
             }
         }
-    }
+    else:
+        js["task"] = {
+            "title": {
+                "$": template["title"]
+            },
+            "description": {
+                "$": template["description"]
+            },
+            "owner": {
+                "id": {
+                    "$": "3382098"
+                }
+            },
+            "client": {
+                "id": {
+                    "$": template["client"]
+                }
+            },
+            "endDateIsSet": {
+                "$": "1"
+            },
+            "endDate": {
+                "$": template["endTime"].split(" ")[0]
+            }
+        }
     if not template["beginDateTime"]:
         js["task"]["startDateIsSet"] = {
             "$": "0"
