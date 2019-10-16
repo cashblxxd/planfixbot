@@ -166,6 +166,7 @@ def text_handler(update, context):
             if "endTime" not in context.user_data[uid]["template"]:
                 context.user_data[uid]["template"]["endTime"] = ""
         context.user_data[uid]["template"]["owner"] = "3332912"
+        context.user_data[uid]["template"]["title"] = ""
     elif context.user_data[uid]["state"] == "title":
         context.user_data[uid]["template"]["title"] = update.message.text
     elif context.user_data[uid]["state"] == "description":
