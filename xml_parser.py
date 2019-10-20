@@ -5,6 +5,7 @@ from requests import post
 from pprint import pprint
 from json import dump
 from database import get_email, get_passwd, get_pf_auth_token
+from datetime import datetime
 
 
 def get_response(xml_string):
@@ -96,7 +97,7 @@ def send_task(template):
                 "$": template["title"]
             },
             "description": {
-                "$": template["description"]
+                "$": str(datetime.now()).split(".")[0] + "\n\n" + template["description"]
             },
             "owner": {
                 "id": {

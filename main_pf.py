@@ -70,7 +70,7 @@ def inlinequery(update, context):
                         desc = "No description.:("
                     # print(desc)
                     results.append(InlineQueryResultArticle(id=uuid4(), title=i["name"],
-                                                            input_message_content=InputTextMessageContent(i["name"] + "::" + str(i["id"]))))
+                                                            input_message_content=InputTextMessageContent(i["name"] + ":" + str(i["id"]))))
         # pprint(results)
         update.inline_query.answer(results)
     elif context.user_data[uid]["state"] == "template":
@@ -86,7 +86,7 @@ def inlinequery(update, context):
                         desc = "No description.:("
                     #print(desc)
                     results.append(InlineQueryResultArticle(id=uuid4(), title=i["title"],
-                                                            input_message_content=InputTextMessageContent(i["title"] + "::" + str(i["id"]))))
+                                                            input_message_content=InputTextMessageContent(i["title"] + ":" + str(i["id"]))))
         #pprint(results)
         update.inline_query.answer(results)
     else:
@@ -127,7 +127,18 @@ def start(update, context):
 
 def help(update, context):
     context.user_data = commit(update, context, "command")
-    update.message.reply_text('Здравствуйте! Я - бот компании \"K3\"! Чем могу быть полезен?')
+    update.message.reply_text("""Я - бот компании KIII! Помогу вам создавать задачи, не тратя на это время в интерфейсе ПланФикса. 
+
+Создание задачи происходит так:
+1. Выбор шаблона
+2. Название задачи
+3. Описание задачи
+4. Дата завершения задачи
+5. Выбор контрагента
+6. Готово!
+
+Чтобы начать создание с шаблона, отправьте мне /new_task, а если не хотите добавлять шаблон, просто отправьте любое сообщение, оно станет названием новой задачи.
+Также для того, чтобы понять, как работает этот бот, вы можете посмотреть видеоурок.""", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ВИДЕО", callback_data="main::video")]]))
 
 
 def error(update, context):
@@ -159,7 +170,7 @@ def text_handler(update, context):
                 "endTime": ""
             }
         else:
-            template_id = update.message.text.rsplit("::", 1)[-1]
+            template_id = update.message.text.rsplit(":", 1)[-1]
             context.user_data[uid]["template"] = get_template(template_id, uid)
             if "beginDateTime" not in context.user_data[uid]["template"]:
                 context.user_data[uid]["template"]["beginDateTime"] = ""
@@ -167,7 +178,7 @@ def text_handler(update, context):
                 context.user_data[uid]["template"]["endTime"] = ""
         context.user_data[uid]["template"]["owner"] = "3332912"
         context.user_data[uid]["template"]["title"] = ""
-    elif context.user_data[uid]["state"] == "title":
+    elif context.user_data[uid]["state"] in ["title", "pending"]:
         context.user_data[uid]["template"]["title"] = update.message.text
     elif context.user_data[uid]["state"] == "description":
         context.user_data[uid]["template"]["description"] = update.message.text
@@ -175,7 +186,7 @@ def text_handler(update, context):
         if update.message.text == "-1":
             context.user_data[uid]["template"]["client"] = "0"
         else:
-            context.user_data[uid]["template"]["client"] = update.message.text.rsplit("::", 1)[-1]
+            context.user_data[uid]["template"]["client"] = update.message.text.rsplit(":", 1)[-1]
     n = get_next(context.user_data[uid]["template"])
     if n == "title":
         context.user_data[uid]["state"] = "title"
@@ -212,7 +223,9 @@ def button(update, context):
     context.user_data = commit(update, context, "callback")
     data = update.callback_query.data
     uid = str(update.callback_query.from_user.id)
-    if data == "confirm_date":
+    if data == "main::video":
+        context.bot.send_video(uid, "BAADAgADhwUAArHrSEmKTBv_9kmIGBYE", supports_streaming=True)
+    elif data == "confirm_date":
         # TODO: clients list
         n = get_next(context.user_data[uid]["template"])
         if n == "endTime":
