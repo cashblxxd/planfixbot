@@ -17,7 +17,7 @@ import datetime
 import calendar
 from json import load, dump, dumps
 from time import sleep
-from xml_parser import get_template_list, auth, send_task, get_contact_list
+from xml_parser import get_template_list, auth, send_task, get_contact_list, get_user
 from stuff import get_template, get_next
 from database import get_token
 
@@ -101,14 +101,32 @@ def commit(update, context, type):
     user_data = {**load_db(), **context.user_data}
     if type == "message" or type == "command":
         uid = str(update.message.chat_id)
+        tgname = update.message.from_user.username if update.message.from_user.username else "-1"
     elif type == "callback":
         uid = str(update.callback_query.from_user.id)
+        tgname = update.callback_query.from_user.username if update.callback_query.from_user.username else "-1"
     elif type == "query":
         uid = str(update.inline_query.from_user.id)
-    if uid not in user_data:
+        tgname = update.inline_query.from_user.username if update.inline_query.from_user.username else "-1"
+    print(tgname)
+    if uid not in user_data or "bind" not in user_data[uid] or user_data[uid]["bind"] == "-1":
         user_data[uid] = {"state": "pending"}
+        if tgname == "-1":
+            user_data[uid]["bind"] = "-1"
+        else:
+            with open("userdb.json", "r") as f:
+                s = load(f)
+                print(s, tgname in s)
+                user_data[uid]["bind"] = s.get(tgname, "-1")
+    print(user_data[uid]["bind"])
     dump_db(user_data)
     return user_data
+
+
+def check_tg(uid, tgid):
+    if tgid == "-1":
+        return ""
+    return get_user(uid, tgid)
 
 
 def load_db():
@@ -122,23 +140,38 @@ def dump_db(context):
 
 def start(update, context):
     context.user_data = commit(update, context, "command")
-    update.message.reply_text('Здравствуйте! Чем могу быть полезен?')
+    uid = str(update.message.chat_id)
+    p = check_tg(uid, context.user_data[uid]["bind"])
+    if p:
+        p = p["name"]["$"]
+        update.message.reply_text(f'Здравствуйте, {p}! Чем могу быть полезен?')
+    else:
+        update.message.reply_text("Извините, я Вас не знаю:(")
 
 
 def help(update, context):
     context.user_data = commit(update, context, "command")
-    update.message.reply_text("""Я - бот компании KIII! Помогу вам создавать задачи, не тратя на это время в интерфейсе ПланФикса. 
+    uid = str(update.message.chat_id)
+    p = check_tg(uid, context.user_data[uid]["bind"])
+    if p:
+        p = p["name"]["$"]
+        update.message.reply_text(f'Здравствуйте, {p}!')
+        update.message.reply_text("""Я - бот компании KIII! Помогу вам создавать задачи, не тратя на это время в интерфейсе ПланФикса. 
 
-Создание задачи происходит так:
-1. Выбор шаблона
-2. Название задачи
-3. Описание задачи
-4. Дата завершения задачи
-5. Выбор контрагента
-6. Готово!
+        Создание задачи происходит так:
+        1. Выбор шаблона
+        2. Название задачи
+        3. Описание задачи
+        4. Дата завершения задачи
+        5. Выбор контрагента
+        6. Готово!
 
-Чтобы начать создание с шаблона, отправьте мне /new_task, а если не хотите добавлять шаблон, просто отправьте любое сообщение, оно станет названием новой задачи.
-Также для того, чтобы понять, как работает этот бот, вы можете посмотреть видеоурок.""", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ВИДЕО", callback_data="main::video")]]))
+        Чтобы начать создание с шаблона, отправьте мне /new_task, а если не хотите добавлять шаблон, просто отправьте любое сообщение, оно станет названием новой задачи.
+        Также для того, чтобы понять, как работает этот бот, вы можете посмотреть видеоурок.""",
+                                  reply_markup=InlineKeyboardMarkup(
+                                      [[InlineKeyboardButton("ВИДЕО", callback_data="main::video")]]))
+    else:
+        update.message.reply_text("Извините, я Вас не знаю:(")
 
 
 def error(update, context):
@@ -148,22 +181,57 @@ def error(update, context):
 def new_task(update, context):
     context.user_data = commit(update, context, "command")
     uid = str(update.message.chat_id)
+    p = check_tg(uid, context.user_data[uid]["bind"])
+    if not p:
+        update.message.reply_text("Извините, я Вас не знаю:(")
+        return
+    p = p["name"]["$"]
     get_template_list(uid)
     context.user_data[uid]["state"] = "template"
-    update.message.reply_text("Включите инлайн и начните искать шаблон (@k3pfbot шаблон...) или отправьте -1, если не хотите сейчас добавлять шаблон (ввести поля вручную).")
+    update.message.reply_text(f"Здравствуйте, {p}! Включите инлайн и начните искать шаблон (@k3pfbot шаблон...) или отправьте -1, если не хотите сейчас добавлять шаблон (ввести поля вручную).")
     context.user_data = commit(update, context, "command")
 
 
 def text_handler(update, context):
     context.user_data = commit(update, context, "message")
     uid = str(update.message.chat_id)
+    print(context.user_data[uid]["state"])
+    if context.user_data[uid]["state"] == 'new_user_tghandle':
+        context.user_data[uid]["tghandle"] = update.message.text[1:]
+        update.message.reply_text("Отправьте, пожалуйста, ссылку на него в ПланФиксе, например https://k3.planfix.ru/?action=user&lid=3382110")
+        context.user_data[uid]["state"] = "new_user_link"
+        context.user_data = commit(update, context, "message")
+        return
+    if context.user_data[uid]["state"] == 'new_user_link':
+        tgh = context.user_data[uid]["tghandle"]
+        with open("userdb.json", "r") as f:
+            s = load(f)
+            s[tgh] = update.message.text.split("=")[-1]
+            dump(s, open('userdb.json', 'w+', encoding='utf-8'), ensure_ascii=False, indent=4)
+        update.message.reply_text(f"@{tgh} успешно добавлен в базу.")
+        context.user_data[uid]["state"] = "pending"
+        context.user_data = commit(update, context, "message")
+        return
+    if context.user_data[uid]["state"] == 'delete_user':
+        with open("userdb.json", "r") as f:
+            s = load(f)
+            s.pop(update.message.text[1:])
+            dump(s, open('userdb.json', 'w+', encoding='utf-8'), ensure_ascii=False, indent=4)
+        update.message.reply_text(f"{update.message.text} успешно удалён из базы.")
+        context.user_data[uid]["state"] = "pending"
+        context.user_data = commit(update, context, "message")
+        return
+    p = check_tg(uid, context.user_data[uid]["bind"])
+    if not p:
+        update.message.reply_text("Извините, я Вас не знаю:(")
+        return
     if context.user_data[uid]["state"] == "template":
         if update.message.text == "-1":
             context.user_data[uid]["template"] = {
                 "id": "",
                 "title": "",
                 "description": "",
-                "owner": "",
+                "owner": p["id"]["$"],
                 "client": "",
                 "worker": "",
                 "beginDateTime": "",
@@ -176,7 +244,7 @@ def text_handler(update, context):
                 context.user_data[uid]["template"]["beginDateTime"] = ""
             if "endTime" not in context.user_data[uid]["template"]:
                 context.user_data[uid]["template"]["endTime"] = ""
-        context.user_data[uid]["template"]["owner"] = "3332912"
+        context.user_data[uid]["template"]["owner"] = p["id"]["$"]
         context.user_data[uid]["template"]["title"] = ""
     elif context.user_data[uid]["state"] in ["title", "pending"]:
         context.user_data[uid]["template"]["title"] = update.message.text
@@ -208,7 +276,7 @@ def text_handler(update, context):
             "id": "",
             "title": "",
             "description": "",
-            "owner": "",
+            "owner": p["id"]["$"],
             "client": "",
             "worker": "",
             "beginDateTime": "",
@@ -221,8 +289,12 @@ def text_handler(update, context):
 
 def button(update, context):
     context.user_data = commit(update, context, "callback")
-    data = update.callback_query.data
     uid = str(update.callback_query.from_user.id)
+    p = check_tg(uid, context.user_data[uid]["bind"])
+    if not p:
+        update.message.reply_text("Извините, я Вас не знаю:(")
+        return
+    data = update.callback_query.data
     if data == "main::video":
         context.bot.send_video(uid, "BAADAgADhwUAArHrSEmKTBv_9kmIGBYE", supports_streaming=True)
     elif data == "confirm_date":
@@ -242,7 +314,7 @@ def button(update, context):
                 "id": "",
                 "title": "",
                 "description": "",
-                "owner": "",
+                "owner": p["id"]["$"],
                 "client": "",
                 "worker": "",
                 "beginDateTime": "",
@@ -268,16 +340,39 @@ def button(update, context):
     context.user_data = commit(update, context, "callback")
 
 
+def new_user(update, context):
+    context.user_data = commit(update, context, "command")
+    uid = str(update.message.from_user.id)
+    if update.message.from_user.username not in ["Fuzzz13", "cyberf1ex"]:
+        update.message.reply_text("Вы не можете добавлять новых сотрудников")
+        return
+    context.user_data[uid]["state"] = 'new_user_tghandle'
+    update.message.reply_text("Отправьте, пожалуйста, ник нового пользователя, например, @cyberf1ex")
+    context.user_data = commit(update, context, "command")
+
+
+def delete_user(update, context):
+    context.user_data = commit(update, context, "command")
+    uid = str(update.message.from_user.id)
+    if update.message.from_user.username not in ["Fuzzz13", "cyberf1ex"]:
+        update.message.reply_text("Вы не можете добавлять новых сотрудников")
+        return
+    context.user_data[uid]["state"] = 'delete_user'
+    update.message.reply_text("Отправьте, пожалуйста, ник пользователя, которого хотите удалить, например, @cyberf1ex")
+    context.user_data = commit(update, context, "command")
+
+
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
     dp.add_handler(CommandHandler("new_task", new_task))
+    dp.add_handler(CommandHandler("new_user", new_user))
+    dp.add_handler(CommandHandler("delete_user", delete_user))
     dp.add_handler(CallbackQueryHandler(button))
     dp.add_handler(InlineQueryHandler(inlinequery))
     dp.add_handler(MessageHandler(Filters.text, text_handler))
-    #dp.add_error_handler(error)
     updater.start_polling()
     updater.idle()
 

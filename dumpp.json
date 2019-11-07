@@ -1,15 +1,17 @@
 {
     "640028321": {
         "state": "pending",
+        "bind": "3301968",
         "template": {
             "id": "",
             "title": "",
             "description": "",
-            "owner": "",
+            "owner": 3301968,
             "client": "",
             "worker": "",
             "beginDateTime": "",
             "endTime": ""
-        }
+        },
+        "tghandle": "Fuzzz13"
     }
 }

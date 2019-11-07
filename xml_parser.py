@@ -3,7 +3,7 @@ from xml.etree.ElementTree import fromstring
 from xmljson import badgerfish as bf
 from requests import post
 from pprint import pprint
-from json import dump
+from json import dump, load
 from database import get_email, get_passwd, get_pf_auth_token
 from datetime import datetime
 
@@ -101,7 +101,7 @@ def send_task(template):
             },
             "owner": {
                 "id": {
-                    "$": "3382098"
+                    "$": str(template["owner"])
                 }
             },
             "client": {
@@ -126,7 +126,7 @@ def send_task(template):
             },
             "owner": {
                 "id": {
-                    "$": "3382098"
+                    "$": str(template["owner"])
                 }
             },
             "client": {
@@ -242,11 +242,22 @@ def get_user_list(uid):
                 }
             }
             resp = get_response(bf.etree(js, root=Element("request", method="user.getList")))
-            pprint(resp)
-            res.append(resp)
+            #pprint(resp)
+            for i in resp["response"]["users"]["user"]:
+                res.append(i)
     except Exception as e:
         print(e)
     dump(res, open(f'users_{uid}.json', 'w+', encoding='utf-8'), ensure_ascii=False, indent=4)
+
+
+def get_user(uid, tgid):
+    get_user_list(uid)
+    with open(f"users_{uid}.json", "r") as f:
+        s = load(f)
+        pprint(s)
+        for i in s:
+            if str(i["id"]["$"]) == tgid:
+                return i
 
 
 def get_contact(uid):
@@ -265,3 +276,4 @@ def get_contact(uid):
 #get_fillist("111")
 #get_user_list("1")
 #get_contact("1")
+#get_user_by_nickname()
