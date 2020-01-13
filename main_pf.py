@@ -109,15 +109,15 @@ def commit(update, context, type):
         uid = str(update.inline_query.from_user.id)
         tgname = update.inline_query.from_user.username if update.inline_query.from_user.username else "-1"
     print(tgname)
-    if uid not in user_data or "bind" not in user_data[uid] or user_data[uid]["bind"] == "-1":
+    if uid not in user_data:
         user_data[uid] = {"state": "pending"}
-        if tgname == "-1":
-            user_data[uid]["bind"] = "-1"
-        else:
-            with open("userdb.json", "r") as f:
-                s = load(f)
-                print(s, tgname in s)
-                user_data[uid]["bind"] = s.get(tgname, "-1")
+    if tgname == "-1":
+        user_data[uid]["bind"] = "-1"
+    else:
+        with open("userdb.json", "r") as f:
+            s = load(f)
+            print(s, tgname in s)
+            user_data[uid]["bind"] = s.get(tgname, "-1")
     print(user_data[uid]["bind"])
     dump_db(user_data)
     return user_data
@@ -362,6 +362,21 @@ def delete_user(update, context):
     context.user_data = commit(update, context, "command")
 
 
+def show_users(update, context):
+    context.user_data = commit(update, context, "command")
+    uid = str(update.message.from_user.id)
+    if update.message.from_user.username not in ["Fuzzz13", "cyberf1ex"]:
+        update.message.reply_text("Вы не можете добавлять новых сотрудников")
+        return
+    update.message.reply_text("Вот список ваших сотрудников:")
+    a = []
+    with open("userdb.json", 'r') as f:
+        s = load(f)
+        for i in s:
+            a.append(f"@{i}\nhttps://k3.planfix.ru/?action=user&lid={s[i]}\n")
+    update.message.reply_text('\n'.join(a), parse_mode=ParseMode.MARKDOWN)
+
+
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
@@ -370,6 +385,7 @@ def main():
     dp.add_handler(CommandHandler("new_task", new_task))
     dp.add_handler(CommandHandler("new_user", new_user))
     dp.add_handler(CommandHandler("delete_user", delete_user))
+    dp.add_handler(CommandHandler("show_users", show_users))
     dp.add_handler(CallbackQueryHandler(button))
     dp.add_handler(InlineQueryHandler(inlinequery))
     dp.add_handler(MessageHandler(Filters.text, text_handler))
@@ -379,3 +395,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
